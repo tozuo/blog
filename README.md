@@ -53,3 +53,5 @@ hexo
     npm install hexo-renderer-marked --save
 
 
+hexo new page "about"
+hexo new page "tags"
