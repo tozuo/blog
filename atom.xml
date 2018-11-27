@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Z-BLOG</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://satott.gitee.io/"/>
+  <updated>2018-11-27T07:18:25.856Z</updated>
+  <id>http://satott.gitee.io/</id>
+  
+  <author>
+    <name>satot</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>zblog部署</title>
+    <link href="http://satott.gitee.io/2018/11/27/hexo%E9%83%A8%E7%BD%B2/"/>
+    <id>http://satott.gitee.io/2018/11/27/hexo部署/</id>
+    <published>2018-11-27T04:30:00.000Z</published>
+    <updated>2018-11-27T07:18:25.856Z</updated>
+    
+    <content type="html"><![CDATA[<p>##</p><h4 id="博文前缀-Front-matter"><a href="#博文前缀-Front-matter" class="headerlink" title="博文前缀 Front-matter"></a>博文前缀 Front-matter</h4><pre><code>title    网站标题subtitle    网站副标题description    网站描述author    您的名字language    网站使用的语言timezone    网站时区。Hexo 默认使用您电脑的时区。时区列表。比如说：America/New_York, Japan, 和 UTC 。</code></pre><table><thead><tr><th>参数</th><th style="text-align:center">描述</th><th style="text-align:right">默认值</th></tr></thead><tbody><tr><td>layout</td><td style="text-align:center">布局</td></tr><tr><td>title</td><td style="text-align:center">标题</td></tr><tr><td>date</td><td style="text-align:center">建立日期</td><td style="text-align:right">文件建立日期</td></tr><tr><td>updated</td><td style="text-align:center">更新日期</td><td style="text-align:right">文件更新日期</td></tr><tr><td>comments</td><td style="text-align:center">开启文章的评论功能</td><td style="text-align:right">true</td></tr><tr><td>tags</td><td style="text-align:center">标签（不适用于分页）</td></tr><tr><td>categories</td><td style="text-align:center">分类（不适用于分页）</td></tr><tr><td>permalink</td><td style="text-align:center">覆盖文章网址</td></tr></tbody></table><h3 id="模板"><a href="#模板" class="headerlink" title="模板"></a>模板</h3><p>hexo new “postName” #新建文章<br>hexo new page “pageName” #新建页面<br>hexo generate #生成静态页面至public目录<br>hexo server #开启预览访问端口（默认端口4000，’ctrl + c’关闭server）<br>hexo deploy #将.deploy目录部署到GitHub</p><h4 id="images"><a href="#images" class="headerlink" title="images"></a>images</h4><h4 id="RSS不显示"><a href="#RSS不显示" class="headerlink" title="RSS不显示"></a>RSS不显示</h4><pre><code>安装RSS插件npm install hexo-generator-feed --save开启RSS功能编辑hexo/_config.yml，添加如下代码：rss: /atom.xml #rss地址  默认即可</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;##&lt;/p&gt;
+&lt;h4 id=&quot;博文前缀-Front-matter&quot;&gt;&lt;a href=&quot;#博文前缀-Front-matter&quot; class=&quot;headerlink&quot; title=&quot;博文前缀 Front-matter&quot;&gt;&lt;/a&gt;博文前缀 Front-matter&lt;/h4&gt;&lt;pr
+      
+    
+    </summary>
+    
+      <category term="demo" scheme="http://satott.gitee.io/categories/demo/"/>
+    
+      <category term="hexo" scheme="http://satott.gitee.io/categories/demo/hexo/"/>
+    
+    
+      <category term="t1" scheme="http://satott.gitee.io/tags/t1/"/>
+    
+      <category term="t2" scheme="http://satott.gitee.io/tags/t2/"/>
+    
+      <category term="t3" scheme="http://satott.gitee.io/tags/t3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://satott.gitee.io/2018/11/27/hello-world/"/>
+    <id>http://satott.gitee.io/2018/11/27/hello-world/</id>
+    <published>2018-11-27T03:30:30.604Z</published>
+    <updated>2018-11-27T03:30:30.604Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
