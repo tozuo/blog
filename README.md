@@ -7,7 +7,7 @@ zblog-hexo
     http://zuot.gitee.io/zblog
 
 ####
-hexo
+    hexo
 
 
 #### hexo博客 安装教程
@@ -46,12 +46,10 @@ hexo
     npm install hexo-renderer-stylus --save
     npm install hexo-renderer-marked --save
 #### 白板和Cannot GET / 几个字
-原因：
+    原因：
     由于2.6以后就更新了，我们需要手动配置些东西，我们需要输入下面三行命令：
     npm install hexo-renderer-ejs --save
     npm install hexo-renderer-stylus --save
     npm install hexo-renderer-marked --save
 
 
-hexo new page "about"
-hexo new page "tags"
