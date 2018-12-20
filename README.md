@@ -52,4 +52,28 @@ zblog-hexo
     npm install hexo-renderer-stylus --save
     npm install hexo-renderer-marked --save
 
+#### GitHub 域名解析
+
+zsatot
+/
+zlove.github.io
+zsatot
+/
+zwww.github.io
+
+satott
+/
+tozuo.github.io
+satott
+/
+tzuo.github.io
+
+
+tozuo
+/
+zlink.github.io
+tozuo
+/
+tblog.github.io
+
 
