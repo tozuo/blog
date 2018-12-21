@@ -19,17 +19,25 @@ zblog-hexo
     npm install hexo-renderer-ejs --save
     npm install hexo-renderer-stylus --save
     npm install hexo-renderer-marked --save
-    
+
+    站内搜索
+    npm install hexo-generator-search --save
+
     配置git
     npm install --save hexo-deployer-git
     
     aath 主题依赖
     npm install --save hexo-renderer-sass
-    
+
+    next 5主题
+    git clone https://github.com/iissnan/hexo-theme-next themes/next5
+    next 6主题
+    git clone https://github.com/theme-next/hexo-theme-next themes/next6
+
 
 
 ### 部署命令
-#### 提交gitee
+#### 提交git
     hexo clean && hexo g && hexo d
 
 #### 清理&编译&启动服务
@@ -52,7 +60,46 @@ zblog-hexo
     npm install hexo-renderer-stylus --save
     npm install hexo-renderer-marked --save
 
+
+#### 评论系统 - 来必力
+    <!-- 来必力City版安装代码 -->
+    <div id="lv-container" data-id="city" data-uid="MTAyMC80MTc2OC8xODMxNA==">
+    	<script type="text/javascript">
+       (function(d, s) {
+           var j, e = d.getElementsByTagName(s)[0];
+
+           if (typeof LivereTower === 'function') { return; }
+
+           j = d.createElement(s);
+           j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+           j.async = true;
+
+           e.parentNode.insertBefore(j, e);
+       })(document, 'script');
+    	</script>
+    <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+    </div>
+    <!-- City版安装代码已完成 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### GitHub 域名解析
+
+
+
+
 
 zsatot
 /
