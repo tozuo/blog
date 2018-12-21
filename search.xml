@@ -1,58 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-    
-    <entry>
-      <title>post-1127</title>
-      <link href="/2018/11/27/post1127/"/>
-      <url>/2018/11/27/post1127/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    <entry>
-      <title>zblog部署</title>
-      <link href="/2018/11/27/hexo%E9%83%A8%E7%BD%B2/"/>
-      <url>/2018/11/27/hexo%E9%83%A8%E7%BD%B2/</url>
-      
-        <content type="html"><![CDATA[<p>##</p><h4 id="博文前缀-Front-matter"><a href="#博文前缀-Front-matter" class="headerlink" title="博文前缀 Front-matter"></a>博文前缀 Front-matter</h4><pre><code>title    网站标题subtitle    网站副标题description    网站描述author    您的名字language    网站使用的语言timezone    网站时区。Hexo 默认使用您电脑的时区。时区列表。比如说：America/New_York, Japan, 和 UTC 。</code></pre><table><thead><tr><th style="text-align:left">参数</th><th style="text-align:center">描述</th><th style="text-align:center">默认值</th></tr></thead><tbody><tr><td style="text-align:left">layout</td><td style="text-align:center">布局</td></tr><tr><td style="text-align:left">title</td><td style="text-align:center">标题</td></tr><tr><td style="text-align:left">date</td><td style="text-align:center">建立日期</td><td style="text-align:center">文件建立日期</td></tr><tr><td style="text-align:left">updated</td><td style="text-align:center">更新日期</td><td style="text-align:center">文件更新日期</td></tr><tr><td style="text-align:left">comments</td><td style="text-align:center">开启文章的评论功能</td><td style="text-align:center">true</td></tr><tr><td style="text-align:left">tags</td><td style="text-align:center">标签（不适用于分页）</td></tr><tr><td style="text-align:left">categories</td><td style="text-align:center">分类（不适用于分页）</td></tr><tr><td style="text-align:left">permalink</td><td style="text-align:center">覆盖文章网址</td></tr></tbody></table><h3 id="模板"><a href="#模板" class="headerlink" title="模板"></a>模板</h3><pre><code>hexo new &quot;postName&quot; #新建文章hexo new page &quot;pageName&quot; #新建页面hexo generate #生成静态页面至public目录hexo server #开启预览访问端口（默认端口4000，&apos;ctrl + c&apos;关闭server）hexo deploy #将.deploy目录部署到GitHubhexo new &quot;postName&quot; #新建文章hexo new page &quot;pageName&quot; #新建页面hexo new page &quot;about&quot;hexo new page &quot;tags&quot;</code></pre><h4 id="images"><a href="#images" class="headerlink" title="images"></a>images</h4><h4 id="RSS不显示"><a href="#RSS不显示" class="headerlink" title="RSS不显示"></a>RSS不显示</h4><pre><code>安装RSS插件npm install hexo-generator-feed --save开启RSS功能编辑hexo/_config.yml，添加如下代码：rss: /atom.xml #rss地址  默认即可</code></pre>]]></content>
-      
-      
+<search>
+  <entry>
+    <title><![CDATA[post-1127]]></title>
+    <url>%2F2018%2F11%2F27%2Fpost1127%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[zblog部署]]></title>
+    <url>%2F2018%2F11%2F27%2Fhexo%E9%83%A8%E7%BD%B2%2F</url>
+    <content type="text"><![CDATA[## 博文前缀 Front-mattertitle 网站标题 subtitle 网站副标题 description 网站描述 author 您的名字 language 网站使用的语言 timezone 网站时区。Hexo 默认使用您电脑的时区。时区列表。比如说：America/New_York, Japan, 和 UTC 。 参数 描述 默认值 layout 布局 title 标题 date 建立日期 文件建立日期 updated 更新日期 文件更新日期 comments 开启文章的评论功能 true tags 标签（不适用于分页） categories 分类（不适用于分页） permalink 覆盖文章网址 模板hexo new &quot;postName&quot; #新建文章 hexo new page &quot;pageName&quot; #新建页面 hexo generate #生成静态页面至public目录 hexo server #开启预览访问端口（默认端口4000，&apos;ctrl + c&apos;关闭server） hexo deploy #将.deploy目录部署到GitHub hexo new &quot;postName&quot; #新建文章 hexo new page &quot;pageName&quot; #新建页面 hexo new page &quot;about&quot; hexo new page &quot;tags&quot; imagesRSS不显示安装RSS插件 npm install hexo-generator-feed --save 开启RSS功能 编辑hexo/_config.yml，添加如下代码： rss: /atom.xml #rss地址 默认即可]]></content>
       <categories>
-          
-          <category> demo </category>
-          
-          <category> hexo </category>
-          
+        <category>demo</category>
+        <category>hexo</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> t1 </tag>
-            
-            <tag> t2 </tag>
-            
-            <tag> t3 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2018/11/27/hello-world/"/>
-      <url>/2018/11/27/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://satot.cn/" target="_blank" rel="noopener">satot</a></p><h2 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h2><h3 id="hexo-new-“new-post”"><a href="#hexo-new-“new-post”" class="headerlink" title="hexo new “new post”"></a>hexo new “new post”</h3><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-  
-  
+      <tags>
+        <tag>t1</tag>
+        <tag>t2</tag>
+        <tag>t3</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2018%2F11%2F27%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to satot Hello Worldhexo new “new post”More info: Deployment]]></content>
+  </entry>
 </search>
