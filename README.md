@@ -61,7 +61,7 @@ zblog-hexo
     npm install hexo-renderer-marked --save
 
 
-#### 评论系统 - 来必力 satot@126.com/a6
+#### 评论系统 - 来必力
     <!-- 来必力City版安装代码 -->
     <div id="lv-container" data-id="city" data-uid="MTAyMC80MTc2OC8xODMxNA==">
     	<script type="text/javascript">
