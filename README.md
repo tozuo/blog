@@ -34,7 +34,10 @@ zblog-hexo
     next 6主题
     git clone https://github.com/theme-next/hexo-theme-next themes/next6
 
-
+    评论系统 Gitment，则应该使用 npm 进行安装。
+    npm install --save gitment
+    评论系统 gitalk，
+    npm i --save gitalk
 
 ### 部署命令
 #### 提交git

@@ -117,6 +117,8 @@
 <meta name="twitter:description" content="satot.cn...">
 
 
+  
+
 
   <link rel="alternate" href="/atom.xml" title="Z-BLOG" type="application/atom+xml">
 
@@ -860,39 +862,46 @@
 
 
 
-
-
-
-
-
-  
-  
+<!-- LOCAL: You can save these files to your site and update links -->
     
-  
-  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-  
-  
+        
+        <link rel="stylesheet" href="https://aimingoo.github.io/gitmint/style/default.css">
+        <script src="https://aimingoo.github.io/gitmint/dist/gitmint.browser.js"></script>
     
-  
-  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<!-- END LOCAL -->
 
-  
-  
-  <script src="//cdn.jsdelivr.net/npm/js-md5@0.7.3/src/md5.min.js"></script>
+    
 
-   <script>
-        var gitalk = new Gitalk({
-          clientID: 'cbc98a1afd861c68c334',
-          clientSecret: '23aa3e605ff7ffd0a46a4c3404b9b3de418b6c2e',
-          repo: 'tblog.github.io',
-          owner: 'tozuo',
-          admin: ['tozuo'],
-          id: md5(location.pathname),
-          distractionFreeMode: 'true'
-        })
-        gitalk.render('gitalk-container')
-       </script>
+    
+      <script>
+      function renderGitment(){
+        var gitment = new Gitmint({
+            id: window.location.pathname,
+            owner: 'tozuo',
+            repo: 'tblog.github.io',
+            
+            lang: "" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
+            
+            oauth: {
+            
+            
+                client_secret: '23aa3e605ff7ffd0a46a4c3404b9b3de418b6c2e',
+            
+                client_id: 'cbc98a1afd861c68c334'
+            }});
+        gitment.render('gitment-container');
+      }
+
+      
+      renderGitment();
+      
+      </script>
+    
+
+
+
+
+
 
 
   
