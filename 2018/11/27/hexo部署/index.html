@@ -715,7 +715,10 @@ rss: /atom.xml #rss地址  默认即可
 
   
     <div class="comments" id="comments">
-      <div id="lv-container" data-id="city" data-uid="your_livere_uid"></div>
+      
+        <div onclick="showGitment()" id="gitment-display-button">显示 Gitment 评论</div>
+        <div id="gitment-container" style="display:none"></div>
+      
     </div>
 
   
@@ -1077,20 +1080,6 @@ rss: /atom.xml #rss地址  默认即可
 
 
 
-  
-    <script>
-      window.livereOptions = {
-        refer: '2018/11/27/hexo部署/'
-      };
-      (function(d, s) {
-        var j, e = d.getElementsByTagName(s)[0];
-        if (typeof LivereTower === 'function') { return; }
-        j = d.createElement(s);
-        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-        j.async = true;
-        e.parentNode.insertBefore(j, e);
-      })(document, 'script');
-    </script>
   
 
 
