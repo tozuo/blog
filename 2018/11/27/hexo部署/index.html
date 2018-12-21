@@ -1116,7 +1116,7 @@ rss: /atom.xml #rss地址  默认即可
             owner: 'tozuo',
             repo: 'tblog.github.io',
             
-            lang: "" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
+            lang: "zh-CN" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
             
             oauth: {
             
@@ -1129,7 +1129,11 @@ rss: /atom.xml #rss地址  默认即可
       }
 
       
-      renderGitment();
+      function showGitment(){
+        document.getElementById("gitment-display-button").style.display = "none";
+        document.getElementById("gitment-container").style.display = "block";
+        renderGitment();
+      }
       
       </script>
     
