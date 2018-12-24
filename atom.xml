@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.tozuo.cn/"/>
-  <updated>2018-11-27T08:22:33.842Z</updated>
+  <updated>2018-12-24T04:33:45.964Z</updated>
   <id>https://blog.tozuo.cn/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>post-1127</title>
-    <link href="https://blog.tozuo.cn/2018/11/27/post1127/"/>
-    <id>https://blog.tozuo.cn/2018/11/27/post1127/</id>
+    <link href="https://blog.tozuo.cn/2018/11/27/demo1127/"/>
+    <id>https://blog.tozuo.cn/2018/11/27/demo1127/</id>
     <published>2018-11-27T07:34:31.000Z</published>
-    <updated>2018-11-27T08:22:33.842Z</updated>
+    <updated>2018-12-24T04:33:45.964Z</updated>
     
     <summary type="html">
     
@@ -32,8 +32,8 @@
   
   <entry>
     <title>zblog部署</title>
-    <link href="https://blog.tozuo.cn/2018/11/27/hexo%E9%83%A8%E7%BD%B2/"/>
-    <id>https://blog.tozuo.cn/2018/11/27/hexo部署/</id>
+    <link href="https://blog.tozuo.cn/2018/11/27/hexo/"/>
+    <id>https://blog.tozuo.cn/2018/11/27/hexo/</id>
     <published>2018-11-27T04:30:00.000Z</published>
     <updated>2018-12-21T02:20:24.776Z</updated>
     
@@ -64,8 +64,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://blog.tozuo.cn/2018/11/27/hello-world/"/>
-    <id>https://blog.tozuo.cn/2018/11/27/hello-world/</id>
+    <link href="https://blog.tozuo.cn/2018/11/27/hello/"/>
+    <id>https://blog.tozuo.cn/2018/11/27/hello/</id>
     <published>2018-11-27T03:30:30.604Z</published>
     <updated>2018-11-27T07:37:25.076Z</updated>
     
