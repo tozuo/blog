@@ -46,7 +46,26 @@ zblog-hexo
 
 
 
+#### footer 显示 Hexo
+文件路径：themes/next6/layout/_partials/footer.swig
 
+{% if theme.footer.powered.enable %}
+  <div class="powered-by">{#
+  #}{{ __('footer.powered', next_url('https://hexo.io', 'Hexo', {class: 'theme-link'})) }}{#
+  #}{% if theme.footer.powered.version %} v{{ hexo_env('version') }}{% endif %}{#
+ #}</div>
+{% endif %}
+
+{% if theme.footer.powered.enable and theme.footer.theme.enable %}
+  <span class="post-meta-divider">|</span>
+{% endif %}
+
+{% if theme.footer.theme.enable %}
+  <div class="theme-info">{#
+  #}{{ __('footer.theme') }}  {{ next_url('https://theme-next.org', 'NexT.' + theme.scheme, {class: 'theme-link'}) }}{#
+  #}{% if theme.footer.theme.version %} v{{ version }}{% endif %}{#
+#}</div>
+{% endif %}
 
 
 
