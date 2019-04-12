@@ -81,15 +81,15 @@
     <link href="https://blog.tozuo.cn/2018/11/27/help/"/>
     <id>https://blog.tozuo.cn/2018/11/27/help/</id>
     <published>2018-11-27T04:30:00.000Z</published>
-    <updated>2019-04-12T05:16:28.086Z</updated>
+    <updated>2019-04-12T05:29:33.686Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Z-Blog"><a href="#Z-Blog" class="headerlink" title="Z-Blog"></a>Z-Blog</h2><h3 id="Help"><a href="#Help" class="headerlink" title="Help"></a>Help</h3>]]></content>
+    <content type="html"><![CDATA[<h2 id="Z-Blog-Help"><a href="#Z-Blog-Help" class="headerlink" title="Z-Blog  Help"></a>Z-Blog  Help</h2><h4 id="hexo博客-安装教程"><a href="#hexo博客-安装教程" class="headerlink" title="hexo博客 安装教程"></a>hexo博客 安装教程</h4><pre><code>npm install hexo --savenpm install hexo-server --save配置 hexo s 后页面空白npm install hexo-renderer-ejs --savenpm install hexo-renderer-stylus --savenpm install hexo-renderer-marked --save站内搜索npm install hexo-generator-search --save配置gitnpm install --save hexo-deployer-gitaath 主题依赖npm install --save hexo-renderer-sassnext 5主题git clone https://github.com/iissnan/hexo-theme-next themes/next5next 6主题git clone https://github.com/theme-next/hexo-theme-next themes/next6评论系统 Gitment，则应该使用 npm 进行安装。npm install --save gitment评论系统 gitalk，npm i --save gitalk</code></pre><h3 id="部署命令"><a href="#部署命令" class="headerlink" title="部署命令"></a>部署命令</h3><h4 id="提交git"><a href="#提交git" class="headerlink" title="提交git"></a>提交git</h4><pre><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></pre><h4 id="清理-amp-编译-amp-启动服务"><a href="#清理-amp-编译-amp-启动服务" class="headerlink" title="清理&amp;编译&amp;启动服务"></a>清理&amp;编译&amp;启动服务</h4><pre><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code></pre><h4 id="然后打开页面显示的是："><a href="#然后打开页面显示的是：" class="headerlink" title="然后打开页面显示的是："></a>然后打开页面显示的是：</h4><pre><code>&lt;%- partial(&apos;_partial/head&apos;) %&gt; &lt;%- partial(&apos;_partial/header&apos;) %&gt;&lt;%- body %&gt; &lt;% if (theme.sidebar &amp;&amp; theme.sidebar !== &apos;bottom&apos;){ %&gt;&lt;%- partial(&apos;_partial/sidebar&apos;) %&gt; &lt;% } %&gt; &lt;%- partial(&apos;_partial/footer&apos;) %&gt;&lt;%- partial(&apos;_partial/mobile-nav&apos;) %&gt; &lt;%- partial(&apos;_partial/after-footer&apos;) %&gt;原因： Hexo无法解析模板文件解决方案： 使用以下的命令npm install hexo-renderer-ejs --savenpm install hexo-renderer-stylus --savenpm install hexo-renderer-marked --save</code></pre><h4 id="白板和Cannot-GET-几个字"><a href="#白板和Cannot-GET-几个字" class="headerlink" title="白板和Cannot GET / 几个字"></a>白板和Cannot GET / 几个字</h4><pre><code>原因：由于2.6以后就更新了，我们需要手动配置些东西，我们需要输入下面三行命令：npm install hexo-renderer-ejs --savenpm install hexo-renderer-stylus --savenpm install hexo-renderer-marked --save</code></pre>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;Z-Blog&quot;&gt;&lt;a href=&quot;#Z-Blog&quot; class=&quot;headerlink&quot; title=&quot;Z-Blog&quot;&gt;&lt;/a&gt;Z-Blog&lt;/h2&gt;&lt;h3 id=&quot;Help&quot;&gt;&lt;a href=&quot;#Help&quot; class=&quot;headerlink&quot; title=&quot;H
+        &lt;h2 id=&quot;Z-Blog-Help&quot;&gt;&lt;a href=&quot;#Z-Blog-Help&quot; class=&quot;headerlink&quot; title=&quot;Z-Blog  Help&quot;&gt;&lt;/a&gt;Z-Blog  Help&lt;/h2&gt;&lt;h4 id=&quot;hexo博客-安装教程&quot;&gt;&lt;a href=&quot;#hexo
       
     
     </summary>
@@ -99,6 +99,10 @@
     
       <category term="help" scheme="https://blog.tozuo.cn/tags/help/"/>
     
+      <category term="提交GitHub" scheme="https://blog.tozuo.cn/tags/%E6%8F%90%E4%BA%A4GitHub/"/>
+    
+      <category term="测试" scheme="https://blog.tozuo.cn/tags/%E6%B5%8B%E8%AF%95/"/>
+    
   </entry>
   
   <entry>
@@ -106,7 +110,7 @@
     <link href="https://blog.tozuo.cn/2018/11/27/hexo/"/>
     <id>https://blog.tozuo.cn/2018/11/27/hexo/</id>
     <published>2018-11-27T04:30:00.000Z</published>
-    <updated>2019-04-12T04:46:05.223Z</updated>
+    <updated>2019-04-12T05:29:46.039Z</updated>
     
     <content type="html"><![CDATA[<p>##</p><h4 id="博文前缀-Front-matter"><a href="#博文前缀-Front-matter" class="headerlink" title="博文前缀 Front-matter"></a>博文前缀 Front-matter</h4><pre><code>title    网站标题subtitle    网站副标题description    网站描述author    您的名字language    网站使用的语言timezone    网站时区。Hexo 默认使用您电脑的时区。时区列表。比如说：America/New_York, Japan, 和 UTC 。</code></pre><table><thead><tr><th style="text-align:left">参数</th><th style="text-align:center">描述</th><th style="text-align:center">默认值</th></tr></thead><tbody><tr><td style="text-align:left">layout</td><td style="text-align:center">布局</td></tr><tr><td style="text-align:left">title</td><td style="text-align:center">标题</td></tr><tr><td style="text-align:left">date</td><td style="text-align:center">建立日期</td><td style="text-align:center">文件建立日期</td></tr><tr><td style="text-align:left">updated</td><td style="text-align:center">更新日期</td><td style="text-align:center">文件更新日期</td></tr><tr><td style="text-align:left">comments</td><td style="text-align:center">开启文章的评论功能</td><td style="text-align:center">true</td></tr><tr><td style="text-align:left">tags</td><td style="text-align:center">标签（不适用于分页）</td></tr><tr><td style="text-align:left">categories</td><td style="text-align:center">分类（不适用于分页）</td></tr><tr><td style="text-align:left">permalink</td><td style="text-align:center">覆盖文章网址</td></tr></tbody></table><h3 id="模板"><a href="#模板" class="headerlink" title="模板"></a>模板</h3><pre><code>hexo new &quot;postName&quot; #新建文章hexo new page &quot;pageName&quot; #新建页面hexo generate #生成静态页面至public目录hexo server #开启预览访问端口（默认端口4000，&apos;ctrl + c&apos;关闭server）hexo deploy #将.deploy目录部署到GitHubhexo new &quot;postName&quot; #新建文章hexo new page &quot;pageName&quot; #新建页面hexo new page &quot;about&quot;hexo new page &quot;tags&quot;</code></pre><h4 id="images"><a href="#images" class="headerlink" title="images"></a>images</h4><h4 id="RSS不显示"><a href="#RSS不显示" class="headerlink" title="RSS不显示"></a>RSS不显示</h4><pre><code>安装RSS插件npm install hexo-generator-feed --save开启RSS功能编辑hexo/_config.yml，添加如下代码：rss: /atom.xml #rss地址  默认即可</code></pre>]]></content>
     
@@ -120,16 +124,10 @@
     
     </summary>
     
-      <category term="help" scheme="https://blog.tozuo.cn/categories/help/"/>
-    
-      <category term="hexo" scheme="https://blog.tozuo.cn/categories/help/hexo/"/>
+      <category term="hexo" scheme="https://blog.tozuo.cn/categories/hexo/"/>
     
     
-      <category term="t1" scheme="https://blog.tozuo.cn/tags/t1/"/>
-    
-      <category term="t2" scheme="https://blog.tozuo.cn/tags/t2/"/>
-    
-      <category term="t3" scheme="https://blog.tozuo.cn/tags/t3/"/>
+      <category term="hexo" scheme="https://blog.tozuo.cn/tags/hexo/"/>
     
   </entry>
   

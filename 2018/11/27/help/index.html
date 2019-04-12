@@ -104,18 +104,18 @@
 
 
 
-  <meta name="description" content="Z-BlogHelp">
-<meta name="keywords" content="help">
+  <meta name="description" content="Z-Blog  Helphexo博客 安装教程npm install hexo --save npm install hexo-server --save  配置 hexo s 后页面空白 npm install hexo-renderer-ejs --save npm install hexo-renderer-stylus --save npm install hexo-renderer-ma">
+<meta name="keywords" content="help,提交GitHub,测试">
 <meta property="og:type" content="article">
 <meta property="og:title" content="help">
 <meta property="og:url" content="https://blog.tozuo.cn/2018/11/27/help/index.html">
 <meta property="og:site_name" content="Z-BLOG">
-<meta property="og:description" content="Z-BlogHelp">
+<meta property="og:description" content="Z-Blog  Helphexo博客 安装教程npm install hexo --save npm install hexo-server --save  配置 hexo s 后页面空白 npm install hexo-renderer-ejs --save npm install hexo-renderer-stylus --save npm install hexo-renderer-ma">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-04-12T05:16:28.086Z">
+<meta property="og:updated_time" content="2019-04-12T05:29:33.686Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="help">
-<meta name="twitter:description" content="Z-BlogHelp">
+<meta name="twitter:description" content="Z-Blog  Helphexo博客 安装教程npm install hexo --save npm install hexo-server --save  配置 hexo s 后页面空白 npm install hexo-renderer-ejs --save npm install hexo-renderer-stylus --save npm install hexo-renderer-ma">
 
 
 
@@ -448,7 +448,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-04-12 13:16:28" itemprop="dateModified" datetime="2019-04-12T13:16:28+08:00">2019-04-12</time>
+                <time title="修改时间：2019-04-12 13:29:33" itemprop="dateModified" datetime="2019-04-12T13:29:33+08:00">2019-04-12</time>
               
             
           </span>
@@ -499,7 +499,49 @@
       
 
       
-        <h2 id="Z-Blog"><a href="#Z-Blog" class="headerlink" title="Z-Blog"></a>Z-Blog</h2><h3 id="Help"><a href="#Help" class="headerlink" title="Help"></a>Help</h3>
+        <h2 id="Z-Blog-Help"><a href="#Z-Blog-Help" class="headerlink" title="Z-Blog  Help"></a>Z-Blog  Help</h2><h4 id="hexo博客-安装教程"><a href="#hexo博客-安装教程" class="headerlink" title="hexo博客 安装教程"></a>hexo博客 安装教程</h4><pre><code>npm install hexo --save
+npm install hexo-server --save
+
+配置 hexo s 后页面空白
+npm install hexo-renderer-ejs --save
+npm install hexo-renderer-stylus --save
+npm install hexo-renderer-marked --save
+
+站内搜索
+npm install hexo-generator-search --save
+
+配置git
+npm install --save hexo-deployer-git
+
+aath 主题依赖
+npm install --save hexo-renderer-sass
+
+next 5主题
+git clone https://github.com/iissnan/hexo-theme-next themes/next5
+next 6主题
+git clone https://github.com/theme-next/hexo-theme-next themes/next6
+
+评论系统 Gitment，则应该使用 npm 进行安装。
+npm install --save gitment
+评论系统 gitalk，
+npm i --save gitalk
+</code></pre><h3 id="部署命令"><a href="#部署命令" class="headerlink" title="部署命令"></a>部署命令</h3><h4 id="提交git"><a href="#提交git" class="headerlink" title="提交git"></a>提交git</h4><pre><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d
+</code></pre><h4 id="清理-amp-编译-amp-启动服务"><a href="#清理-amp-编译-amp-启动服务" class="headerlink" title="清理&amp;编译&amp;启动服务"></a>清理&amp;编译&amp;启动服务</h4><pre><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo s
+</code></pre><h4 id="然后打开页面显示的是："><a href="#然后打开页面显示的是：" class="headerlink" title="然后打开页面显示的是："></a>然后打开页面显示的是：</h4><pre><code>&lt;%- partial(&apos;_partial/head&apos;) %&gt; &lt;%- partial(&apos;_partial/header&apos;) %&gt;
+&lt;%- body %&gt; &lt;% if (theme.sidebar &amp;&amp; theme.sidebar !== &apos;bottom&apos;){ %&gt;
+&lt;%- partial(&apos;_partial/sidebar&apos;) %&gt; &lt;% } %&gt; &lt;%- partial(&apos;_partial/footer&apos;) %&gt;
+&lt;%- partial(&apos;_partial/mobile-nav&apos;) %&gt; &lt;%- partial(&apos;_partial/after-footer&apos;) %&gt;
+原因： Hexo无法解析模板文件
+解决方案： 使用以下的命令
+npm install hexo-renderer-ejs --save
+npm install hexo-renderer-stylus --save
+npm install hexo-renderer-marked --save
+</code></pre><h4 id="白板和Cannot-GET-几个字"><a href="#白板和Cannot-GET-几个字" class="headerlink" title="白板和Cannot GET / 几个字"></a>白板和Cannot GET / 几个字</h4><pre><code>原因：
+由于2.6以后就更新了，我们需要手动配置些东西，我们需要输入下面三行命令：
+npm install hexo-renderer-ejs --save
+npm install hexo-renderer-stylus --save
+npm install hexo-renderer-marked --save
+</code></pre>
       
     </div>
 
@@ -523,6 +565,10 @@
         <div class="post-tags">
           
             <a href="/tags/help/" rel="tag"># help</a>
+          
+            <a href="/tags/提交GitHub/" rel="tag"># 提交GitHub</a>
+          
+            <a href="/tags/测试/" rel="tag"># 测试</a>
           
         </div>
       
@@ -791,7 +837,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Z-Blog"><span class="nav-number">1.</span> <span class="nav-text">Z-Blog</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Help"><span class="nav-number">1.1.</span> <span class="nav-text">Help</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Z-Blog-Help"><span class="nav-number">1.</span> <span class="nav-text">Z-Blog  Help</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#hexo博客-安装教程"><span class="nav-number">1.0.1.</span> <span class="nav-text">hexo博客 安装教程</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#部署命令"><span class="nav-number">1.1.</span> <span class="nav-text">部署命令</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#提交git"><span class="nav-number">1.1.1.</span> <span class="nav-text">提交git</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#清理-amp-编译-amp-启动服务"><span class="nav-number">1.1.2.</span> <span class="nav-text">清理&amp;编译&amp;启动服务</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#然后打开页面显示的是："><span class="nav-number">1.1.3.</span> <span class="nav-text">然后打开页面显示的是：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#白板和Cannot-GET-几个字"><span class="nav-number">1.1.4.</span> <span class="nav-text">白板和Cannot GET / 几个字</span></a></li></ol></li></ol></div>
             
 
           </div>
