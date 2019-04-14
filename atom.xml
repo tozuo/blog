@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Z-BLOG</title>
   
-  <subtitle>zz</subtitle>
+  
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.tozuo.cn/"/>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>兰湾国际业委会前期准备备忘</title>
-    <link href="https://blog.tozuo.cn/2019/04/12/20190412-lwgj/"/>
-    <id>https://blog.tozuo.cn/2019/04/12/20190412-lwgj/</id>
+    <link href="https://blog.tozuo.cn/2019/04/12/20190412lwgj/"/>
+    <id>https://blog.tozuo.cn/2019/04/12/20190412lwgj/</id>
     <published>2019-04-12T04:00:00.000Z</published>
     <updated>2019-04-12T05:25:37.416Z</updated>
     
@@ -49,8 +49,8 @@
   
   <entry>
     <title>兰湾国际业委会筹备工作公示</title>
-    <link href="https://blog.tozuo.cn/2019/04/11/20190411-gs/"/>
-    <id>https://blog.tozuo.cn/2019/04/11/20190411-gs/</id>
+    <link href="https://blog.tozuo.cn/2019/04/11/20190411lwgs/"/>
+    <id>https://blog.tozuo.cn/2019/04/11/20190411lwgs/</id>
     <published>2019-04-11T04:00:00.000Z</published>
     <updated>2019-04-12T05:24:47.395Z</updated>
     
@@ -73,6 +73,35 @@
     
     
       <category term="公示" scheme="https://blog.tozuo.cn/tags/%E5%85%AC%E7%A4%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>兰湾国际 数据汇总</title>
+    <link href="https://blog.tozuo.cn/2019/04/10/20190410lwdata/"/>
+    <id>https://blog.tozuo.cn/2019/04/10/20190410lwdata/</id>
+    <published>2019-04-10T04:00:00.000Z</published>
+    <updated>2019-04-14T07:09:45.921Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="兰湾国际"><a href="#兰湾国际" class="headerlink" title="兰湾国际"></a>兰湾国际</h2><h3 id="业主基本数据统计"><a href="#业主基本数据统计" class="headerlink" title="业主基本数据统计"></a>业主基本数据统计</h3><table><thead><tr><th>楼号</th><th>单元数</th><th>住户总数</th><th>商品房户数</th></tr></thead><tbody><tr><td>1 号楼</td><td>2</td><td>108    </td></tr><tr><td>2 号楼</td><td>2</td><td>88    </td></tr><tr><td>3 号楼</td><td>2</td><td>88    </td></tr><tr><td>4 号楼</td><td>2</td><td>107</td><td>1</td></tr><tr><td>5 号楼</td><td>2</td><td>108    </td></tr><tr><td>6 号楼</td><td>2</td><td>72    </td></tr><tr><td>7 号楼</td><td>2</td><td>144    </td></tr><tr><td>8 号楼</td><td>2</td><td>42</td><td>2</td></tr><tr><td>9 号楼</td><td>2</td><td>108    </td></tr><tr><td>10 号楼</td><td>2</td><td>72    </td></tr><tr><td>11 号楼</td><td>3</td><td>42    </td></tr><tr><td>12 号楼</td><td>2</td><td>42</td><td>2</td></tr><tr><td>13 号楼</td><td>1</td><td>72    </td></tr><tr><td>14 号楼</td><td>3</td><td>63    </td></tr><tr><td>15 号楼</td><td>2</td><td>28</td><td>1</td></tr><tr><td>16 号楼</td><td>2</td><td>96</td><td>12</td></tr><tr><td>17 号楼</td><td>2</td><td>28    </td></tr><tr><td>18 号楼</td><td>4</td><td>44    </td></tr><tr><td>19 号楼</td><td>2</td><td>50    </td></tr><tr><td></td><td></td><td>合计</td><td>1402</td><td>18</td></tr></tbody></table><p>##</p><ul><li>根据我们统计的总户数，至少需要登记 421 户，才能满足30%。</li><li>按政府批前公示的1387户，至少 416 户，才能满足30%。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;兰湾国际&quot;&gt;&lt;a href=&quot;#兰湾国际&quot; class=&quot;headerlink&quot; title=&quot;兰湾国际&quot;&gt;&lt;/a&gt;兰湾国际&lt;/h2&gt;&lt;h3 id=&quot;业主基本数据统计&quot;&gt;&lt;a href=&quot;#业主基本数据统计&quot; class=&quot;headerlink&quot; title=&quot;业
+      
+    
+    </summary>
+    
+      <category term="兰湾国际" scheme="https://blog.tozuo.cn/categories/%E5%85%B0%E6%B9%BE%E5%9B%BD%E9%99%85/"/>
+    
+      <category term="业主委员会" scheme="https://blog.tozuo.cn/categories/%E5%85%B0%E6%B9%BE%E5%9B%BD%E9%99%85/%E4%B8%9A%E4%B8%BB%E5%A7%94%E5%91%98%E4%BC%9A/"/>
+    
+      <category term="数据汇总" scheme="https://blog.tozuo.cn/categories/%E5%85%B0%E6%B9%BE%E5%9B%BD%E9%99%85/%E4%B8%9A%E4%B8%BB%E5%A7%94%E5%91%98%E4%BC%9A/%E6%95%B0%E6%8D%AE%E6%B1%87%E6%80%BB/"/>
+    
+    
+      <category term="数据汇总" scheme="https://blog.tozuo.cn/tags/%E6%95%B0%E6%8D%AE%E6%B1%87%E6%80%BB/"/>
     
   </entry>
   
