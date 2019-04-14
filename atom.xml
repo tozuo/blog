@@ -81,7 +81,7 @@
     <link href="https://blog.tozuo.cn/2019/04/10/20190410lwdata/"/>
     <id>https://blog.tozuo.cn/2019/04/10/20190410lwdata/</id>
     <published>2019-04-10T04:00:00.000Z</published>
-    <updated>2019-04-14T07:22:56.042Z</updated>
+    <updated>2019-04-14T08:08:29.411Z</updated>
     
     <content type="html"><![CDATA[<h2 id="兰湾国际"><a href="#兰湾国际" class="headerlink" title="兰湾国际"></a>兰湾国际</h2><h3 id="业主基本数据统计"><a href="#业主基本数据统计" class="headerlink" title="业主基本数据统计"></a>业主基本数据统计</h3><table><thead><tr><th>楼号</th><th>单元数</th><th>住户总数</th><th>商品房户数</th></tr></thead><tbody><tr><td>1 号楼</td><td>2</td><td>108</td><td></td></tr><tr><td>2 号楼</td><td>2</td><td>88</td><td></td></tr><tr><td>3 号楼</td><td>2</td><td>88</td><td></td></tr><tr><td>4 号楼</td><td>2</td><td>107</td><td>1</td></tr><tr><td>5 号楼</td><td>2</td><td>108</td><td></td></tr><tr><td>6 号楼</td><td>2</td><td>72</td><td></td></tr><tr><td>7 号楼</td><td>2</td><td>144</td><td></td></tr><tr><td>8 号楼</td><td>2</td><td>42</td><td>2</td></tr><tr><td>9 号楼</td><td>2</td><td>108</td><td></td></tr><tr><td>10 号楼</td><td>2</td><td>72</td><td></td></tr><tr><td>11 号楼</td><td>3</td><td>42</td><td></td></tr><tr><td>12 号楼</td><td>2</td><td>42</td><td>2</td></tr><tr><td>13 号楼</td><td>1</td><td>72</td><td></td></tr><tr><td>14 号楼</td><td>3</td><td>63</td><td></td></tr><tr><td>15 号楼</td><td>2</td><td>28</td><td>1</td></tr><tr><td>16 号楼</td><td>2</td><td>96</td><td>12</td></tr><tr><td>17 号楼</td><td>2</td><td>28</td><td></td></tr><tr><td>18 号楼</td><td>4</td><td>44</td><td></td></tr><tr><td>19 号楼</td><td>2</td><td>50</td><td></td></tr><tr><td>合计</td><td></td><td>1402</td><td>18</td></tr></tbody></table><p>##</p><ul><li>根据我们统计的总户数，至少需要登记 421 户，才能满足30%。</li><li>按政府批前公示的1387户，至少 416 户，才能满足30%。</li></ul>]]></content>
     
@@ -102,6 +102,35 @@
     
     
       <category term="数据汇总" scheme="https://blog.tozuo.cn/tags/%E6%95%B0%E6%8D%AE%E6%B1%87%E6%80%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>help</title>
+    <link href="https://blog.tozuo.cn/2018/11/27/help/"/>
+    <id>https://blog.tozuo.cn/2018/11/27/help/</id>
+    <published>2018-11-27T04:30:00.000Z</published>
+    <updated>2019-04-14T08:10:11.298Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Z-Blog-Help"><a href="#Z-Blog-Help" class="headerlink" title="Z-Blog - Help"></a>Z-Blog - Help</h2><h4 id="hexo博客-安装教程"><a href="#hexo博客-安装教程" class="headerlink" title="hexo博客 安装教程"></a>hexo博客 安装教程</h4><pre><code>npm install hexo --savenpm install hexo-server --save配置 hexo s 后页面空白npm install hexo-renderer-ejs --savenpm install hexo-renderer-stylus --savenpm install hexo-renderer-marked --save站内搜索npm install hexo-generator-search --save配置gitnpm install --save hexo-deployer-gitaath 主题依赖npm install --save hexo-renderer-sassnext 5主题git clone https://github.com/iissnan/hexo-theme-next themes/next5next 6主题git clone https://github.com/theme-next/hexo-theme-next themes/next6评论系统 Gitment，则应该使用 npm 进行安装。npm install --save gitment评论系统 gitalk，npm i --save gitalk添加共享按钮 npm install --save hexo-helper-qrcode</code></pre><h3 id="部署命令"><a href="#部署命令" class="headerlink" title="部署命令"></a>部署命令</h3><h4 id="提交git"><a href="#提交git" class="headerlink" title="提交git"></a>提交git</h4><pre><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></pre><h4 id="清理-amp-编译-amp-启动服务"><a href="#清理-amp-编译-amp-启动服务" class="headerlink" title="清理&amp;编译&amp;启动服务"></a>清理&amp;编译&amp;启动服务</h4><pre><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code></pre><h4 id="然后打开页面显示的是："><a href="#然后打开页面显示的是：" class="headerlink" title="然后打开页面显示的是："></a>然后打开页面显示的是：</h4><pre><code>&lt;%- partial(&apos;_partial/head&apos;) %&gt; &lt;%- partial(&apos;_partial/header&apos;) %&gt;&lt;%- body %&gt; &lt;% if (theme.sidebar &amp;&amp; theme.sidebar !== &apos;bottom&apos;){ %&gt;&lt;%- partial(&apos;_partial/sidebar&apos;) %&gt; &lt;% } %&gt; &lt;%- partial(&apos;_partial/footer&apos;) %&gt;&lt;%- partial(&apos;_partial/mobile-nav&apos;) %&gt; &lt;%- partial(&apos;_partial/after-footer&apos;) %&gt;原因： Hexo无法解析模板文件解决方案： 使用以下的命令npm install hexo-renderer-ejs --savenpm install hexo-renderer-stylus --savenpm install hexo-renderer-marked --save</code></pre><h4 id="白板和Cannot-GET-几个字"><a href="#白板和Cannot-GET-几个字" class="headerlink" title="白板和Cannot GET / 几个字"></a>白板和Cannot GET / 几个字</h4><pre><code>原因：由于2.6以后就更新了，我们需要手动配置些东西，我们需要输入下面三行命令：npm install hexo-renderer-ejs --savenpm install hexo-renderer-stylus --savenpm install hexo-renderer-marked --save</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Z-Blog-Help&quot;&gt;&lt;a href=&quot;#Z-Blog-Help&quot; class=&quot;headerlink&quot; title=&quot;Z-Blog - Help&quot;&gt;&lt;/a&gt;Z-Blog - Help&lt;/h2&gt;&lt;h4 id=&quot;hexo博客-安装教程&quot;&gt;&lt;a href=&quot;#he
+      
+    
+    </summary>
+    
+      <category term="help" scheme="https://blog.tozuo.cn/categories/help/"/>
+    
+    
+      <category term="help" scheme="https://blog.tozuo.cn/tags/help/"/>
+    
+      <category term="提交GitHub" scheme="https://blog.tozuo.cn/tags/%E6%8F%90%E4%BA%A4GitHub/"/>
+    
+      <category term="测试" scheme="https://blog.tozuo.cn/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
@@ -128,35 +157,6 @@
     
     
       <category term="hexo" scheme="https://blog.tozuo.cn/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>help</title>
-    <link href="https://blog.tozuo.cn/2018/11/27/help/"/>
-    <id>https://blog.tozuo.cn/2018/11/27/help/</id>
-    <published>2018-11-27T04:30:00.000Z</published>
-    <updated>2019-04-12T05:29:33.686Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Z-Blog-Help"><a href="#Z-Blog-Help" class="headerlink" title="Z-Blog  Help"></a>Z-Blog  Help</h2><h4 id="hexo博客-安装教程"><a href="#hexo博客-安装教程" class="headerlink" title="hexo博客 安装教程"></a>hexo博客 安装教程</h4><pre><code>npm install hexo --savenpm install hexo-server --save配置 hexo s 后页面空白npm install hexo-renderer-ejs --savenpm install hexo-renderer-stylus --savenpm install hexo-renderer-marked --save站内搜索npm install hexo-generator-search --save配置gitnpm install --save hexo-deployer-gitaath 主题依赖npm install --save hexo-renderer-sassnext 5主题git clone https://github.com/iissnan/hexo-theme-next themes/next5next 6主题git clone https://github.com/theme-next/hexo-theme-next themes/next6评论系统 Gitment，则应该使用 npm 进行安装。npm install --save gitment评论系统 gitalk，npm i --save gitalk</code></pre><h3 id="部署命令"><a href="#部署命令" class="headerlink" title="部署命令"></a>部署命令</h3><h4 id="提交git"><a href="#提交git" class="headerlink" title="提交git"></a>提交git</h4><pre><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></pre><h4 id="清理-amp-编译-amp-启动服务"><a href="#清理-amp-编译-amp-启动服务" class="headerlink" title="清理&amp;编译&amp;启动服务"></a>清理&amp;编译&amp;启动服务</h4><pre><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code></pre><h4 id="然后打开页面显示的是："><a href="#然后打开页面显示的是：" class="headerlink" title="然后打开页面显示的是："></a>然后打开页面显示的是：</h4><pre><code>&lt;%- partial(&apos;_partial/head&apos;) %&gt; &lt;%- partial(&apos;_partial/header&apos;) %&gt;&lt;%- body %&gt; &lt;% if (theme.sidebar &amp;&amp; theme.sidebar !== &apos;bottom&apos;){ %&gt;&lt;%- partial(&apos;_partial/sidebar&apos;) %&gt; &lt;% } %&gt; &lt;%- partial(&apos;_partial/footer&apos;) %&gt;&lt;%- partial(&apos;_partial/mobile-nav&apos;) %&gt; &lt;%- partial(&apos;_partial/after-footer&apos;) %&gt;原因： Hexo无法解析模板文件解决方案： 使用以下的命令npm install hexo-renderer-ejs --savenpm install hexo-renderer-stylus --savenpm install hexo-renderer-marked --save</code></pre><h4 id="白板和Cannot-GET-几个字"><a href="#白板和Cannot-GET-几个字" class="headerlink" title="白板和Cannot GET / 几个字"></a>白板和Cannot GET / 几个字</h4><pre><code>原因：由于2.6以后就更新了，我们需要手动配置些东西，我们需要输入下面三行命令：npm install hexo-renderer-ejs --savenpm install hexo-renderer-stylus --savenpm install hexo-renderer-marked --save</code></pre>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;Z-Blog-Help&quot;&gt;&lt;a href=&quot;#Z-Blog-Help&quot; class=&quot;headerlink&quot; title=&quot;Z-Blog  Help&quot;&gt;&lt;/a&gt;Z-Blog  Help&lt;/h2&gt;&lt;h4 id=&quot;hexo博客-安装教程&quot;&gt;&lt;a href=&quot;#hexo
-      
-    
-    </summary>
-    
-      <category term="help" scheme="https://blog.tozuo.cn/categories/help/"/>
-    
-    
-      <category term="help" scheme="https://blog.tozuo.cn/tags/help/"/>
-    
-      <category term="提交GitHub" scheme="https://blog.tozuo.cn/tags/%E6%8F%90%E4%BA%A4GitHub/"/>
-    
-      <category term="测试" scheme="https://blog.tozuo.cn/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
