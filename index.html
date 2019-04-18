@@ -2,23 +2,14 @@
 
 
 
-
-
-
-
-
-
-
-
-
   
 
 
-<html class="theme-next gemini use-motion" lang="zh-CN">
+<html class="theme-next gemini use-motion" lang="zh-Hans">
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="theme-color" content="#222">
 
 
@@ -29,6 +20,8 @@
 
 
 
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
 
 
 
@@ -45,6 +38,9 @@
 
 
 
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
 
 
 
@@ -54,40 +50,64 @@
 
 <link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
 
-<link href="/css/main.css?v=6.6.0" rel="stylesheet" type="text/css">
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.6.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png?v=6.6.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png?v=5.1.4">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png?v=6.6.0">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png?v=5.1.4">
 
 
-  <link rel="mask-icon" href="/images/logo.svg?v=6.6.0" color="#222">
-
-
-
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
 
 
 
 
 
+  <meta name="keywords" content="Hexo, NexT">
 
-<script id="hexo.configurations">
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Z-BLOG" type="application/atom+xml">
+
+
+
+
+
+
+<meta name="description" content="用于兰湾国际业主交流信息备忘">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Z-BLOG">
+<meta property="og:url" content="https://blog.tozuo.cn/index.html">
+<meta property="og:site_name" content="Z-BLOG">
+<meta property="og:description" content="用于兰湾国际业主交流信息备忘">
+<meta property="og:locale" content="zh-Hans">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Z-BLOG">
+<meta name="twitter:description" content="用于兰湾国际业主交流信息备忘">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
     scheme: 'Gemini',
-    version: '6.6.0',
+    version: '5.1.4',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    fancybox: false,
-    fastclick: false,
-    lazyload: false,
+    fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
     algolia: {
       applicationID: '',
       apiKey: '',
@@ -99,38 +119,12 @@
 </script>
 
 
-  
-
-
-
-
-  <meta name="description" content="用于兰湾国际业主交流信息备忘">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Z-BLOG">
-<meta property="og:url" content="https://blog.tozuo.cn/index.html">
-<meta property="og:site_name" content="Z-BLOG">
-<meta property="og:description" content="用于兰湾国际业主交流信息备忘">
-<meta property="og:locale" content="zh-CN">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Z-BLOG">
-<meta name="twitter:description" content="用于兰湾国际业主交流信息备忘">
-
-
-
-  <link rel="alternate" href="/atom.xml" title="Z-BLOG" type="application/atom+xml">
-
-
-
 
   <link rel="canonical" href="https://blog.tozuo.cn/">
 
 
 
-<script id="page.configurations">
-  CONFIG.page = {
-    sidebar: "",
-  };
-</script>
+
 
   <title>Z-BLOG</title>
   
@@ -139,8 +133,7 @@
 
 
 
-
-  <script>
+  <script type="text/javascript">
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
@@ -153,37 +146,9 @@
 
 
 
-
-
-
-  <noscript>
-  <style>
-    .use-motion .motion-element,
-    .use-motion .brand,
-    .use-motion .menu-item,
-    .sidebar-inner,
-    .use-motion .post-block,
-    .use-motion .pagination,
-    .use-motion .comments,
-    .use-motion .post-header,
-    .use-motion .post-body,
-    .use-motion .collection-title { opacity: initial; }
-
-    .use-motion .logo,
-    .use-motion .site-title,
-    .use-motion .site-subtitle {
-      opacity: initial;
-      top: initial;
-    }
-
-    .use-motion .logo-line-before i { left: initial; }
-    .use-motion .logo-line-after i { right: initial; }
-  </style>
-</noscript>
-
 </head>
 
-<body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-CN">
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
   
@@ -206,11 +171,13 @@
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
-    
+      
+        <p class="site-subtitle"></p>
+      
   </div>
 
   <div class="site-nav-toggle">
-    <button aria-label="切换导航栏">
+    <button>
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
@@ -218,111 +185,76 @@
   </div>
 </div>
 
-
-
 <nav class="site-nav">
+  
+
   
     <ul id="menu" class="menu">
       
         
-        
-        
-          
-          <li class="menu-item menu-item-home menu-item-active">
-
-    
-    
-    
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
       
-    
-
-    
-
-    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
-
-  </li>
         
-        
-        
-          
-          <li class="menu-item menu-item-tags">
-
-    
-    
-    
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
+          </a>
+        </li>
       
-    
-
-    
-
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
-
-  </li>
         
-        
-        
-          
-          <li class="menu-item menu-item-categories">
-
-    
-    
-    
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分类
+          </a>
+        </li>
       
-    
-
-    
-
-    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
-
-  </li>
         
-        
-        
-          
-          <li class="menu-item menu-item-archives">
-
-    
-    
-    
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
       
-    
-
-    
-
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
-
-  </li>
         
-        
-        
-          
-          <li class="menu-item menu-item-about">
-
-    
-    
-    
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
       
-    
 
-    
-
-    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
-
-  </li>
-
-      
       
         <li class="menu-item menu-item-search">
           
             <a href="javascript:;" class="popup-trigger">
           
             
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>搜索</a>
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
+            
+            搜索
+          </a>
         </li>
       
     </ul>
-  
-
   
 
   
@@ -351,23 +283,12 @@
 
 
 
-  
-
-
-
-</div>
+ </div>
     </header>
-
-    
-
 
     <main id="main" class="main">
       <div class="main-inner">
         <div class="content-wrap">
-          
-            
-
-          
           <div id="content" class="content">
             
   <section id="posts" class="posts-expand">
@@ -380,18 +301,16 @@
   
   
 
-  
-
   <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
   
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://blog.tozuo.cn/2019/04/15/20190415lwwt/">
+    <link itemprop="mainEntityOfPage" href="https://blog.tozuo.cn/posts/2f9effcd.html">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="satot">
-      <meta itemprop="description" content="用于兰湾国际业主交流信息备忘">
+      <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.png">
     </span>
 
@@ -406,20 +325,11 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2019/04/15/20190415lwwt/" class="post-title-link" itemprop="https://blog.tozuo.cn/index.html">兰湾国际问题汇总</a>
-              
-            
-          </h1>
+                <a class="post-title-link" href="/posts/2f9effcd.html" itemprop="url">兰湾国际问题汇总</a></h1>
         
 
         <div class="post-meta">
           <span class="post-time">
-
-            
-            
-            
-
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
@@ -427,30 +337,25 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-
-              
-                
-              
-
-              <time title="创建时间：2019-04-15 12:00:00" itemprop="dateCreated datePublished" datetime="2019-04-15T12:00:00+08:00">2019-04-15</time>
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-04-15T12:00:00+08:00">
+                2019-04-15
+              </time>
             
 
             
-              
+              <span class="post-meta-divider">|</span>
+            
 
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
               
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-04-18 09:15:42" itemprop="dateModified" datetime="2019-04-18T09:15:42+08:00">2019-04-18</time>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
+              <time title="更新于" itemprop="dateModified" datetime="2019-04-18T12:26:12+08:00">
+                2019-04-18
+              </time>
             
           </span>
 
@@ -466,21 +371,33 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/兰湾国际/" itemprop="url" rel="index"><span itemprop="name">兰湾国际</span></a></span>
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/兰湾国际/" itemprop="url" rel="index">
+                    <span itemprop="name">兰湾国际</span>
+                  </a>
+                </span>
 
                 
                 
-                  ，
+                  ， 
                 
               
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/兰湾国际/业主委员会/" itemprop="url" rel="index"><span itemprop="name">业主委员会</span></a></span>
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/兰湾国际/业主委员会/" itemprop="url" rel="index">
+                    <span itemprop="name">业主委员会</span>
+                  </a>
+                </span>
 
                 
                 
-                  ，
+                  ， 
                 
               
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/兰湾国际/业主委员会/问题汇总/" itemprop="url" rel="index"><span itemprop="name">问题汇总</span></a></span>
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/兰湾国际/业主委员会/问题汇总/" itemprop="url" rel="index">
+                    <span itemprop="name">问题汇总</span>
+                  </a>
+                </span>
 
                 
                 
@@ -490,9 +407,30 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/posts/2f9effcd.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/posts/2f9effcd.html" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
+          
+             <span id="/posts/2f9effcd.html" class="leancloud_visitors" data-flag-title="兰湾国际问题汇总">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
           
 
           
@@ -516,33 +454,24 @@
       
         
           
-          汇总业主反馈的小区问题 及 举证以下是兰湾国际小区的业主反馈的兰湾国际小区存在的主要问题：恳求上级主管部门重视，并协调解决。
-1、应急照明灯、消防栓等设备不全，搞形式主义；&emsp;自小区交房以来，各楼层的应急照明灯没有通电，部分楼层照明设备损耗后长时间未修缮。2018年12月22日，5号楼消防带
+          汇总业主反馈的小区问题 及 举证以下是兰湾国际小区的业主反馈的兰湾国际小区存在的主要问题：恳求上级主
           ...
           <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2019/04/15/20190415lwwt/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/posts/2f9effcd.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
     </div>
-
-    
-
     
     
     
 
     
 
-    
-      
-    
     
 
     
@@ -575,18 +504,16 @@
   
   
 
-  
-
   <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
   
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://blog.tozuo.cn/2019/04/12/20190412lwgj/">
+    <link itemprop="mainEntityOfPage" href="https://blog.tozuo.cn/posts/77fa18cd.html">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="satot">
-      <meta itemprop="description" content="用于兰湾国际业主交流信息备忘">
+      <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.png">
     </span>
 
@@ -601,20 +528,11 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2019/04/12/20190412lwgj/" class="post-title-link" itemprop="https://blog.tozuo.cn/index.html">兰湾国际业委会前期准备备忘</a>
-              
-            
-          </h1>
+                <a class="post-title-link" href="/posts/77fa18cd.html" itemprop="url">兰湾国际业委会前期准备备忘</a></h1>
         
 
         <div class="post-meta">
           <span class="post-time">
-
-            
-            
-            
-
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
@@ -622,30 +540,25 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-
-              
-                
-              
-
-              <time title="创建时间：2019-04-12 12:00:00" itemprop="dateCreated datePublished" datetime="2019-04-12T12:00:00+08:00">2019-04-12</time>
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-04-12T12:00:00+08:00">
+                2019-04-12
+              </time>
             
 
             
-              
+              <span class="post-meta-divider">|</span>
+            
 
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
               
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-04-17 09:58:31" itemprop="dateModified" datetime="2019-04-17T09:58:31+08:00">2019-04-17</time>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
+              <time title="更新于" itemprop="dateModified" datetime="2019-04-18T12:26:12+08:00">
+                2019-04-18
+              </time>
             
           </span>
 
@@ -661,14 +574,22 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/兰湾国际/" itemprop="url" rel="index"><span itemprop="name">兰湾国际</span></a></span>
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/兰湾国际/" itemprop="url" rel="index">
+                    <span itemprop="name">兰湾国际</span>
+                  </a>
+                </span>
 
                 
                 
-                  ，
+                  ， 
                 
               
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/兰湾国际/业主委员会/" itemprop="url" rel="index"><span itemprop="name">业主委员会</span></a></span>
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/兰湾国际/业主委员会/" itemprop="url" rel="index">
+                    <span itemprop="name">业主委员会</span>
+                  </a>
+                </span>
 
                 
                 
@@ -678,9 +599,30 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/posts/77fa18cd.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/posts/77fa18cd.html" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
+          
+             <span id="/posts/77fa18cd.html" class="leancloud_visitors" data-flag-title="兰湾国际业委会前期准备备忘">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
           
 
           
@@ -708,32 +650,24 @@
 己所不欲，勿施于人
 
 兰湾国际A区 平面图
-工作说明1、收集的信息作为‘申请成立兰湾国际业主大会’的基础数据（统计入住率），收集工作完成后所有纸质材料提交给街道办或政府。2、涉及业主个人信息仅限于在前期筹备讨论中交流，未经业主本人同意，不得公开。3、“兰湾国际业委会前期筹备讨论”微信群 作为业委会
+工作说明1、收集的信息作为‘申请成立兰湾国际业主大会’
           ...
           <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2019/04/12/20190412lwgj/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/posts/77fa18cd.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
     </div>
-
-    
-
     
     
     
 
     
 
-    
-      
-    
     
 
     
@@ -766,18 +700,16 @@
   
   
 
-  
-
   <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
   
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://blog.tozuo.cn/2019/04/11/20190411lwgs/">
+    <link itemprop="mainEntityOfPage" href="https://blog.tozuo.cn/posts/44c5f70.html">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="satot">
-      <meta itemprop="description" content="用于兰湾国际业主交流信息备忘">
+      <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.png">
     </span>
 
@@ -792,20 +724,11 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2019/04/11/20190411lwgs/" class="post-title-link" itemprop="https://blog.tozuo.cn/index.html">兰湾国际业委会筹备工作公示</a>
-              
-            
-          </h1>
+                <a class="post-title-link" href="/posts/44c5f70.html" itemprop="url">兰湾国际业委会筹备工作公示</a></h1>
         
 
         <div class="post-meta">
           <span class="post-time">
-
-            
-            
-            
-
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
@@ -813,30 +736,25 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-
-              
-                
-              
-
-              <time title="创建时间：2019-04-11 12:00:00" itemprop="dateCreated datePublished" datetime="2019-04-11T12:00:00+08:00">2019-04-11</time>
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-04-11T12:00:00+08:00">
+                2019-04-11
+              </time>
             
 
             
-              
+              <span class="post-meta-divider">|</span>
+            
 
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
               
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-04-17 11:33:58" itemprop="dateModified" datetime="2019-04-17T11:33:58+08:00">2019-04-17</time>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
+              <time title="更新于" itemprop="dateModified" datetime="2019-04-18T12:26:12+08:00">
+                2019-04-18
+              </time>
             
           </span>
 
@@ -852,21 +770,33 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/兰湾国际/" itemprop="url" rel="index"><span itemprop="name">兰湾国际</span></a></span>
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/兰湾国际/" itemprop="url" rel="index">
+                    <span itemprop="name">兰湾国际</span>
+                  </a>
+                </span>
 
                 
                 
-                  ，
+                  ， 
                 
               
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/兰湾国际/业主委员会/" itemprop="url" rel="index"><span itemprop="name">业主委员会</span></a></span>
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/兰湾国际/业主委员会/" itemprop="url" rel="index">
+                    <span itemprop="name">业主委员会</span>
+                  </a>
+                </span>
 
                 
                 
-                  ，
+                  ， 
                 
               
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/兰湾国际/业主委员会/公示/" itemprop="url" rel="index"><span itemprop="name">公示</span></a></span>
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/兰湾国际/业主委员会/公示/" itemprop="url" rel="index">
+                    <span itemprop="name">公示</span>
+                  </a>
+                </span>
 
                 
                 
@@ -876,9 +806,30 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/posts/44c5f70.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/posts/44c5f70.html" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
+          
+             <span id="/posts/44c5f70.html" class="leancloud_visitors" data-flag-title="兰湾国际业委会筹备工作公示">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
           
 
           
@@ -902,32 +853,24 @@
       
         
           
-          公示公告20190411a各位好，我们几个业主正在积极收集尽可能多的业主信息，以满足双过半的要求，达到申请召开业主大会的资格。目前发现还有很多业主存在警戒之心，这种心情可以理解；在这里，我代表我们几个共同努力的业主向大家做以下保证：1、收集的信息仅作为申请成立兰湾国际业主大会的基础数据（统计入住率）
+          公示公告20190411a各位好，我们几个业主正在积极收集尽可能多的业主信息，以满足双过半的要求，达
           ...
           <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2019/04/11/20190411lwgs/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/posts/44c5f70.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
     </div>
-
-    
-
     
     
     
 
     
 
-    
-      
-    
     
 
     
@@ -960,18 +903,16 @@
   
   
 
-  
-
   <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
   
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://blog.tozuo.cn/2019/04/10/20190410lwdata/">
+    <link itemprop="mainEntityOfPage" href="https://blog.tozuo.cn/posts/cc55c91.html">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="satot">
-      <meta itemprop="description" content="用于兰湾国际业主交流信息备忘">
+      <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.png">
     </span>
 
@@ -986,20 +927,11 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2019/04/10/20190410lwdata/" class="post-title-link" itemprop="https://blog.tozuo.cn/index.html">兰湾国际 数据汇总</a>
-              
-            
-          </h1>
+                <a class="post-title-link" href="/posts/cc55c91.html" itemprop="url">兰湾国际 数据汇总</a></h1>
         
 
         <div class="post-meta">
           <span class="post-time">
-
-            
-            
-            
-
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
@@ -1007,30 +939,25 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-
-              
-                
-              
-
-              <time title="创建时间：2019-04-10 12:00:00" itemprop="dateCreated datePublished" datetime="2019-04-10T12:00:00+08:00">2019-04-10</time>
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-04-10T12:00:00+08:00">
+                2019-04-10
+              </time>
             
 
             
-              
+              <span class="post-meta-divider">|</span>
+            
 
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
               
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-04-17 11:44:32" itemprop="dateModified" datetime="2019-04-17T11:44:32+08:00">2019-04-17</time>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
+              <time title="更新于" itemprop="dateModified" datetime="2019-04-18T12:26:12+08:00">
+                2019-04-18
+              </time>
             
           </span>
 
@@ -1046,21 +973,33 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/兰湾国际/" itemprop="url" rel="index"><span itemprop="name">兰湾国际</span></a></span>
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/兰湾国际/" itemprop="url" rel="index">
+                    <span itemprop="name">兰湾国际</span>
+                  </a>
+                </span>
 
                 
                 
-                  ，
+                  ， 
                 
               
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/兰湾国际/业主委员会/" itemprop="url" rel="index"><span itemprop="name">业主委员会</span></a></span>
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/兰湾国际/业主委员会/" itemprop="url" rel="index">
+                    <span itemprop="name">业主委员会</span>
+                  </a>
+                </span>
 
                 
                 
-                  ，
+                  ， 
                 
               
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/兰湾国际/业主委员会/数据汇总/" itemprop="url" rel="index"><span itemprop="name">数据汇总</span></a></span>
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/兰湾国际/业主委员会/数据汇总/" itemprop="url" rel="index">
+                    <span itemprop="name">数据汇总</span>
+                  </a>
+                </span>
 
                 
                 
@@ -1070,9 +1009,30 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/posts/cc55c91.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/posts/cc55c91.html" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
+          
+             <span id="/posts/cc55c91.html" class="leancloud_visitors" data-flag-title="兰湾国际 数据汇总">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
           
 
           
@@ -1113,74 +1073,23 @@
 
 
 
-2 号楼
-2
-88
-
-
-
-3 号楼
-2
-88
-
-
-
-4 号楼
-2
-107
-1
-
-
-5 号楼
-2
-108
-
-
-
-6 号楼
-2
-72
-
-
-
-7 号楼
-2
-144
-
-
-
-8 号楼
-2
-42
-2
-
-
-9 号
           ...
           <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2019/04/10/20190410lwdata/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/posts/cc55c91.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
     </div>
-
-    
-
     
     
     
 
     
 
-    
-      
-    
     
 
     
@@ -1213,18 +1122,16 @@
   
   
 
-  
-
   <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
   
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://blog.tozuo.cn/2018/11/27/help/">
+    <link itemprop="mainEntityOfPage" href="https://blog.tozuo.cn/posts/a8b5f392.html">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="satot">
-      <meta itemprop="description" content="用于兰湾国际业主交流信息备忘">
+      <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.png">
     </span>
 
@@ -1239,20 +1146,11 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/11/27/help/" class="post-title-link" itemprop="https://blog.tozuo.cn/index.html">Help</a>
-              
-            
-          </h1>
+                <a class="post-title-link" href="/posts/a8b5f392.html" itemprop="url">Help</a></h1>
         
 
         <div class="post-meta">
           <span class="post-time">
-
-            
-            
-            
-
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
@@ -1260,30 +1158,25 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-
-              
-                
-              
-
-              <time title="创建时间：2018-11-27 12:30:00" itemprop="dateCreated datePublished" datetime="2018-11-27T12:30:00+08:00">2018-11-27</time>
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-11-27T12:30:00+08:00">
+                2018-11-27
+              </time>
             
 
             
-              
+              <span class="post-meta-divider">|</span>
+            
 
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
               
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-04-18 09:16:32" itemprop="dateModified" datetime="2019-04-18T09:16:32+08:00">2019-04-18</time>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
+              <time title="更新于" itemprop="dateModified" datetime="2019-04-18T12:36:14+08:00">
+                2019-04-18
+              </time>
             
           </span>
 
@@ -1299,7 +1192,11 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/Help/" itemprop="url" rel="index"><span itemprop="name">Help</span></a></span>
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/Help/" itemprop="url" rel="index">
+                    <span itemprop="name">Help</span>
+                  </a>
+                </span>
 
                 
                 
@@ -1309,9 +1206,30 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/posts/a8b5f392.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/posts/a8b5f392.html" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
+          
+             <span id="/posts/a8b5f392.html" class="leancloud_visitors" data-flag-title="Help">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
           
 
           
@@ -1336,36 +1254,24 @@
         
           
           Z-Blog - Helphexo博客 安装教程npm install hexo --save
-npm install hexo-server --save
-
-配置 hexo s 后页面空白
-npm install hexo-renderer-ejs --save
-npm install hexo-
+np
           ...
           <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2018/11/27/help/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/posts/a8b5f392.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
     </div>
-
-    
-
     
     
     
 
     
 
-    
-      
-    
     
 
     
@@ -1398,18 +1304,16 @@ npm install hexo-
   
   
 
-  
-
   <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
   
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://blog.tozuo.cn/2018/11/27/hexo/">
+    <link itemprop="mainEntityOfPage" href="https://blog.tozuo.cn/posts/c8eea888.html">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="satot">
-      <meta itemprop="description" content="用于兰湾国际业主交流信息备忘">
+      <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.png">
     </span>
 
@@ -1424,20 +1328,11 @@ npm install hexo-
         
           <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/11/27/hexo/" class="post-title-link" itemprop="https://blog.tozuo.cn/index.html">zblog部署</a>
-              
-            
-          </h1>
+                <a class="post-title-link" href="/posts/c8eea888.html" itemprop="url">zblog部署</a></h1>
         
 
         <div class="post-meta">
           <span class="post-time">
-
-            
-            
-            
-
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
@@ -1445,30 +1340,25 @@ npm install hexo-
               
                 <span class="post-meta-item-text">发表于</span>
               
-
-              
-                
-              
-
-              <time title="创建时间：2018-11-27 12:30:00" itemprop="dateCreated datePublished" datetime="2018-11-27T12:30:00+08:00">2018-11-27</time>
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-11-27T12:30:00+08:00">
+                2018-11-27
+              </time>
             
 
             
-              
+              <span class="post-meta-divider">|</span>
+            
 
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
               
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-04-16 17:11:27" itemprop="dateModified" datetime="2019-04-16T17:11:27+08:00">2019-04-16</time>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
+              <time title="更新于" itemprop="dateModified" datetime="2019-04-18T12:26:12+08:00">
+                2019-04-18
+              </time>
             
           </span>
 
@@ -1484,7 +1374,11 @@ npm install hexo-
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/hexo/" itemprop="url" rel="index"><span itemprop="name">hexo</span></a></span>
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/hexo/" itemprop="url" rel="index">
+                    <span itemprop="name">hexo</span>
+                  </a>
+                </span>
 
                 
                 
@@ -1494,9 +1388,30 @@ npm install hexo-
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/posts/c8eea888.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/posts/c8eea888.html" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
+          
+             <span id="/posts/c8eea888.html" class="leancloud_visitors" data-flag-title="zblog部署">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
           
 
           
@@ -1522,36 +1437,24 @@ npm install hexo-
           
           ##
 博文前缀 Front-mattertitle    网站标题
-subtitle    网站副标题
-description    网站描述
-author    您的名字
-language    网站使用的语言
-timezone    网站时区。Hexo 默认使用您电脑的时区。时区列表。比如说：A
+subtitle    网站副标
           ...
           <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2018/11/27/hexo/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/posts/c8eea888.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
     </div>
-
-    
-
     
     
     
 
     
 
-    
-      
-    
     
 
     
@@ -1584,18 +1487,16 @@ timezone    网站时区。Hexo 默认使用您电脑的时区。时区列表。
   
   
 
-  
-
   <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
   
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://blog.tozuo.cn/2018/11/27/hello/">
+    <link itemprop="mainEntityOfPage" href="https://blog.tozuo.cn/posts/4a17b156.html">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="satot">
-      <meta itemprop="description" content="用于兰湾国际业主交流信息备忘">
+      <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.png">
     </span>
 
@@ -1610,20 +1511,11 @@ timezone    网站时区。Hexo 默认使用您电脑的时区。时区列表。
         
           <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/11/27/hello/" class="post-title-link" itemprop="https://blog.tozuo.cn/index.html">Hello World</a>
-              
-            
-          </h1>
+                <a class="post-title-link" href="/posts/4a17b156.html" itemprop="url">Hello World</a></h1>
         
 
         <div class="post-meta">
           <span class="post-time">
-
-            
-            
-            
-
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
@@ -1631,40 +1523,78 @@ timezone    网站时区。Hexo 默认使用您电脑的时区。时区列表。
               
                 <span class="post-meta-item-text">发表于</span>
               
-
-              
-                
-              
-
-              <time title="创建时间：2018-11-27 11:30:30" itemprop="dateCreated datePublished" datetime="2018-11-27T11:30:30+08:00">2018-11-27</time>
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-11-27T12:00:00+08:00">
+                2018-11-27
+              </time>
             
 
             
-              
+              <span class="post-meta-divider">|</span>
+            
 
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
               
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-04-18 09:18:23" itemprop="dateModified" datetime="2019-04-18T09:18:23+08:00">2019-04-18</time>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
+              <time title="更新于" itemprop="dateModified" datetime="2019-04-18T12:26:12+08:00">
+                2019-04-18
+              </time>
             
           </span>
 
           
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/Hello/" itemprop="url" rel="index">
+                    <span itemprop="name">Hello</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/posts/4a17b156.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/posts/4a17b156.html" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
           
+          
+             <span id="/posts/4a17b156.html" class="leancloud_visitors" data-flag-title="Hello World">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
           
 
           
@@ -1689,35 +1619,24 @@ timezone    网站时区。Hexo 默认使用您电脑的时区。时区列表。
         
           
           Welcome to satot’Blog!
-Hello World本博客主页近期作为兰湾国际信息交流和备忘。
-空格 直接写半方大的空白 &amp;ensp; 或 &amp;#8194;
-全方大的空白 &amp;emsp; 或 &amp;#8195;
-不断行的空白格 &amp;nbsp; 或 &am
+Hello World本博客主页近期作为兰湾国际信息交
           ...
           <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2018/11/27/hello/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/posts/4a17b156.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
     </div>
-
-    
-
     
     
     
 
     
 
-    
-      
-    
     
 
     
@@ -1750,6 +1669,9 @@ Hello World本博客主页近期作为兰湾国际信息交流和备忘。
           </div>
           
 
+
+          
+
         </div>
         
           
@@ -1770,7 +1692,7 @@ Hello World本博客主页近期作为兰湾国际信息交流和备忘。
 
       
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -1780,80 +1702,42 @@ Hello World本博客主页近期作为兰湾国际信息交流和备忘。
               <p class="site-description motion-element" itemprop="description">用于兰湾国际业主交流信息备忘</p>
           </div>
 
-          
-            <nav class="site-state motion-element">
-              
-                <div class="site-state-item site-state-posts">
-                
-                  <a href="/archives/">
-                
-                    <span class="site-state-item-count">7</span>
-                    <span class="site-state-item-name">日志</span>
-                  </a>
-                </div>
-              
+          <nav class="site-state motion-element">
 
+            
+              <div class="site-state-item site-state-posts">
               
-                
-                
-                <div class="site-state-item site-state-categories">
-                  <a href="/categories/index.html">
-                    
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                    <span class="site-state-item-count">7</span>
-                    <span class="site-state-item-name">分类</span>
-                  </a>
-                </div>
+                <a href="/archives/">
               
+                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
 
+            
               
-                
-                
-                <div class="site-state-item site-state-tags">
-                  <a href="/tags/index.html">
-                    
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                    <span class="site-state-item-count">10</span>
-                    <span class="site-state-item-name">标签</span>
-                  </a>
-                </div>
               
-            </nav>
-          
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">11</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
 
           
             <div class="feed-link motion-element">
@@ -1866,32 +1750,23 @@ Hello World本博客主页近期作为兰湾国际信息交流和备忘。
 
           
             <div class="links-of-author motion-element">
-              
-                <span class="links-of-author-item">
-                  
-                  
-                    
-                  
-                  
-                    
-                  
-                  <a href="mailto:pro@satot.cn" title="E-Mail &rarr; mailto:pro@satot.cn" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
-                </span>
-              
-                <span class="links-of-author-item">
-                  
-                  
-                    
-                  
-                  
-                    
-                  
-                  <a href="https://github.com/tozuo" title="GitHub &rarr; https://github.com/tozuo" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
-                </span>
-              
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:pro@satot.cn" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/tozuo" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
             </div>
           
 
+          
           
 
           
@@ -1904,11 +1779,11 @@ Hello World本博客主页近期作为兰湾国际信息交流和备忘。
               <ul class="links-of-blogroll-list">
                 
                   <li class="links-of-blogroll-item">
-                    <a href="https://www.baidu.com/" title="https://www.baidu.com/" rel="noopener" target="_blank">百度</a>
+                    <a href="https://www.baidu.com/" title="百度" target="_blank">百度</a>
                   </li>
                 
                   <li class="links-of-blogroll-item">
-                    <a href="https://blog.tozuo.cn/" title="https://blog.tozuo.cn/">Z-Blog</a>
+                    <a href="https://blog.tozuo.cn/" title="Z-Blog" target="_blank">Z-Blog</a>
                   </li>
                 
               </ul>
@@ -1916,12 +1791,9 @@ Hello World本博客主页近期作为兰湾国际信息交流和备忘。
           
 
           
-            
-          
-          
 
         </div>
-      </div>
+      </section>
 
       
 
@@ -1937,13 +1809,11 @@ Hello World本博客主页近期作为兰湾国际信息交流和备忘。
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; 2018 – <span itemprop="copyrightYear">2019</span>
-  <span class="with-love" id="animate">
+        <div class="copyright">&copy; 2018 - <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">satot</span>
-
-  
 
   
 </div>
@@ -1951,8 +1821,12 @@ Hello World本博客主页近期作为兰湾国际信息交流和备忘。
 
 
 
-        
 
+
+
+
+
+        
 
 
 
@@ -1973,14 +1847,11 @@ Hello World本博客主页近期作为兰湾国际信息交流和备忘。
 
     
 
-    
-
-    
   </div>
 
   
 
-<script>
+<script type="text/javascript">
   if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
     window.Promise = null;
   }
@@ -1994,11 +1865,7 @@ Hello World本博客主页近期作为兰湾国际信息交流和备忘。
 
 
 
-
-
-
-
-
+  
 
 
 
@@ -2013,51 +1880,82 @@ Hello World本博客主页近期作为兰湾国际信息交流和备忘。
 
   
   
-    <script src="/lib/jquery/index.js?v=2.1.3"></script>
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
   
 
   
   
-    <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
   
 
   
   
-    <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
-
-
-  
-
-
-  <script src="/js/src/utils.js?v=6.6.0"></script>
-
-  <script src="/js/src/motion.js?v=6.6.0"></script>
-
-
-
-  
-  
-
-
-  <script src="/js/src/affix.js?v=6.6.0"></script>
-
-  <script src="/js/src/schemes/pisces.js?v=6.6.0"></script>
-
-
-
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
   
 
   
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
 
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
 
-  <script src="/js/src/bootstrap.js?v=6.6.0"></script>
-
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
 
 
   
 
 
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
 
   
 
@@ -2070,10 +1968,35 @@ Hello World本博客主页近期作为兰湾国际信息交流和备忘。
 
 
 
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'X7Ldr7aSQQtgPuawWNJmqbUF-gzGzoHsz',
+        appKey: 'YztkwOd6TktFOnM0q1VDOKsl',
+        placeholder: '...',
+        avatar:'identicon',
+				<!-- guest_info:guest, -->
+				meta:guest,
+        pageSize:'10' || 10,
+				visitor: true
+    });
+  </script>
+
+
 
   
 
-  <script>
+  <script type="text/javascript">
     // Popup Window;
     var isfetched = false;
     var isXml = true;
@@ -2122,8 +2045,6 @@ Hello World本博客主页近期作为兰湾国际信息交流和备忘。
         .css('overflow', 'hidden');
       $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
 
-      
-
       $.ajax({
         url: path,
         dataType: isXml ? "xml" : "json",
@@ -2157,7 +2078,6 @@ Hello World本博客主页近期作为兰湾国际信息交流和备忘。
                 var title = data.title.trim();
                 var titleInLowerCase = title.toLowerCase();
                 var content = data.content.trim().replace(/<[^>]+>/g,"");
-                
                 var contentInLowerCase = content.toLowerCase();
                 var articleUrl = decodeURIComponent(data.url);
                 var indexOfTitle = [];
@@ -2404,16 +2324,6 @@ Hello World本博客主页近期作为兰湾国际信息交流和备忘。
   
 
   
-
-  
-
-  
-  
-
-  
-
-  
-
   
 
   

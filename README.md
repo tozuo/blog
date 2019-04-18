@@ -64,7 +64,11 @@ zblog-hexo
 	#}</div>
 	{% endif %}
 	
-
+#### hexo new 的时候文件前缀加时间
+	# File name of new posts
+	# hexo new 的时候文件前缀加时间
+	# new_post_name: :year-:month-:day-:title.md 
+	
 #### GitHub 域名解析
 
 	zsatot
