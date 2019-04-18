@@ -132,7 +132,7 @@
     <link href="https://blog.tozuo.cn/posts/a8b5f392.html"/>
     <id>https://blog.tozuo.cn/posts/a8b5f392.html</id>
     <published>2018-11-27T04:30:00.000Z</published>
-    <updated>2019-04-18T08:33:25.930Z</updated>
+    <updated>2019-04-18T08:52:04.652Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Z-Blog-Help"><a href="#Z-Blog-Help" class="headerlink" title="Z-Blog - Help"></a>Z-Blog - Help</h2><h4 id="hexo博客-安装教程"><a href="#hexo博客-安装教程" class="headerlink" title="hexo博客 安装教程"></a>hexo博客 安装教程</h4><pre><code>npm install hexo --savenpm install hexo-server --save配置 hexo s 后页面空白npm install hexo-renderer-ejs --savenpm install hexo-renderer-stylus --savenpm install hexo-renderer-marked --save站内搜索npm install hexo-generator-search --save配置gitnpm install --save hexo-deployer-gitaath 主题依赖npm install --save hexo-renderer-sassnext 5主题git clone https://github.com/iissnan/hexo-theme-next themes/next5next 6主题git clone https://github.com/theme-next/hexo-theme-next themes/next6评论系统 Gitment，则应该使用 npm 进行安装。npm install --save gitment评论系统 gitalk，npm i --save gitalk添加共享按钮 npm install --save hexo-helper-qrcodehexo链接 持久化npm install hexo-abbrlink --save安装 hexo-adminnpm install --save hexo-admin上传本地图片npm install hexo-asset-image --save</code></pre><h3 id="部署命令"><a href="#部署命令" class="headerlink" title="部署命令"></a>部署命令</h3><h4 id="提交git"><a href="#提交git" class="headerlink" title="提交git"></a>提交git</h4><pre><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></pre><h4 id="清理-amp-编译-amp-启动服务"><a href="#清理-amp-编译-amp-启动服务" class="headerlink" title="清理&amp;编译&amp;启动服务"></a>清理&amp;编译&amp;启动服务</h4><pre><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code></pre><h4 id="然后打开页面显示的是："><a href="#然后打开页面显示的是：" class="headerlink" title="然后打开页面显示的是："></a>然后打开页面显示的是：</h4><pre><code>&lt;%- partial(&apos;_partial/head&apos;) %&gt; &lt;%- partial(&apos;_partial/header&apos;) %&gt;&lt;%- body %&gt; &lt;% if (theme.sidebar &amp;&amp; theme.sidebar !== &apos;bottom&apos;){ %&gt;&lt;%- partial(&apos;_partial/sidebar&apos;) %&gt; &lt;% } %&gt; &lt;%- partial(&apos;_partial/footer&apos;) %&gt;&lt;%- partial(&apos;_partial/mobile-nav&apos;) %&gt; &lt;%- partial(&apos;_partial/after-footer&apos;) %&gt;原因： Hexo无法解析模板文件解决方案： 使用以下的命令npm install hexo-renderer-ejs --savenpm install hexo-renderer-stylus --savenpm install hexo-renderer-marked --save</code></pre><h4 id="白板和Cannot-GET-几个字"><a href="#白板和Cannot-GET-几个字" class="headerlink" title="白板和Cannot GET / 几个字"></a>白板和Cannot GET / 几个字</h4><pre><code>原因：由于2.6以后就更新了，我们需要手动配置些东西，我们需要输入下面三行命令：npm install hexo-renderer-ejs --savenpm install hexo-renderer-stylus --savenpm install hexo-renderer-marked --save</code></pre><h4 id="打赏-amp-版权-amp-分享"><a href="#打赏-amp-版权-amp-分享" class="headerlink" title="打赏&amp; 版权&amp; 分享"></a>打赏&amp; 版权&amp; 分享</h4><pre><code>reward_comment: Thanks！alipay: /images/pay/a.jpgwechatpay: /images/pay/w.jpgshareto: true</code></pre>]]></content>
     
@@ -145,14 +145,10 @@
     
     </summary>
     
-      <category term="Help" scheme="https://blog.tozuo.cn/categories/Help/"/>
+      <category term="hexo" scheme="https://blog.tozuo.cn/categories/hexo/"/>
     
     
-      <category term="Help" scheme="https://blog.tozuo.cn/tags/Help/"/>
-    
-      <category term="提交GitHub" scheme="https://blog.tozuo.cn/tags/%E6%8F%90%E4%BA%A4GitHub/"/>
-    
-      <category term="测试" scheme="https://blog.tozuo.cn/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="hexo配置" scheme="https://blog.tozuo.cn/tags/hexo%E9%85%8D%E7%BD%AE/"/>
     
   </entry>
   
@@ -161,9 +157,9 @@
     <link href="https://blog.tozuo.cn/posts/c8eea888.html"/>
     <id>https://blog.tozuo.cn/posts/c8eea888.html</id>
     <published>2018-11-27T04:30:00.000Z</published>
-    <updated>2019-04-18T04:26:12.907Z</updated>
+    <updated>2019-04-18T08:53:44.711Z</updated>
     
-    <content type="html"><![CDATA[<p>##</p><h4 id="博文前缀-Front-matter"><a href="#博文前缀-Front-matter" class="headerlink" title="博文前缀 Front-matter"></a>博文前缀 Front-matter</h4><pre><code>title    网站标题subtitle    网站副标题description    网站描述author    您的名字language    网站使用的语言timezone    网站时区。Hexo 默认使用您电脑的时区。时区列表。比如说：America/New_York, Japan, 和 UTC 。</code></pre><table><thead><tr><th style="text-align:left">参数</th><th style="text-align:center">描述</th><th style="text-align:center">默认值</th></tr></thead><tbody><tr><td style="text-align:left">layout</td><td style="text-align:center">布局</td></tr><tr><td style="text-align:left">title</td><td style="text-align:center">标题</td></tr><tr><td style="text-align:left">date</td><td style="text-align:center">建立日期</td><td style="text-align:center">文件建立日期</td></tr><tr><td style="text-align:left">updated</td><td style="text-align:center">更新日期</td><td style="text-align:center">文件更新日期</td></tr><tr><td style="text-align:left">comments</td><td style="text-align:center">开启文章的评论功能</td><td style="text-align:center">true</td></tr><tr><td style="text-align:left">tags</td><td style="text-align:center">标签（不适用于分页）</td></tr><tr><td style="text-align:left">categories</td><td style="text-align:center">分类（不适用于分页）</td></tr><tr><td style="text-align:left">permalink</td><td style="text-align:center">覆盖文章网址</td></tr></tbody></table><h3 id="模板"><a href="#模板" class="headerlink" title="模板"></a>模板</h3><pre><code>hexo new &quot;postName&quot; #新建文章hexo new page &quot;pageName&quot; #新建页面hexo generate #生成静态页面至public目录hexo server #开启预览访问端口（默认端口4000，&apos;ctrl + c&apos;关闭server）hexo deploy #将.deploy目录部署到GitHubhexo new &quot;postName&quot; #新建文章hexo new page &quot;pageName&quot; #新建页面hexo new page &quot;about&quot;hexo new page &quot;tags&quot;</code></pre><h4 id="百度统计"><a href="#百度统计" class="headerlink" title="百度统计"></a><a href="https://tongji.baidu.com/web/homepage/index" target="_blank" rel="noopener">百度统计</a></h4><h4 id="RSS不显示"><a href="#RSS不显示" class="headerlink" title="RSS不显示"></a>RSS不显示</h4><pre><code>安装RSS插件npm install hexo-generator-feed --save开启RSS功能编辑hexo/_config.yml，添加如下代码：rss: /atom.xml #rss地址  默认即可</code></pre>]]></content>
+    <content type="html"><![CDATA[<p>##</p><h4 id="博文前缀-Front-matter"><a href="#博文前缀-Front-matter" class="headerlink" title="博文前缀 Front-matter"></a>博文前缀 Front-matter</h4><pre><code>title    网站标题subtitle    网站副标题description    网站描述author    您的名字language    网站使用的语言timezone    网站时区。Hexo 默认使用您电脑的时区。时区列表。比如说：America/New_York, Japan, 和 UTC 。</code></pre><table><thead><tr><th style="text-align:left">参数</th><th style="text-align:center">描述</th><th style="text-align:center">默认值</th></tr></thead><tbody><tr><td style="text-align:left">layout</td><td style="text-align:center">布局</td></tr><tr><td style="text-align:left">title</td><td style="text-align:center">标题</td></tr><tr><td style="text-align:left">date</td><td style="text-align:center">建立日期</td><td style="text-align:center">文件建立日期</td></tr><tr><td style="text-align:left">updated</td><td style="text-align:center">更新日期</td><td style="text-align:center">文件更新日期</td></tr><tr><td style="text-align:left">comments</td><td style="text-align:center">开启文章的评论功能</td><td style="text-align:center">true</td></tr><tr><td style="text-align:left">tags</td><td style="text-align:center">标签（不适用于分页）</td></tr><tr><td style="text-align:left">categories</td><td style="text-align:center">分类（不适用于分页）</td></tr><tr><td style="text-align:left">permalink</td><td style="text-align:center">覆盖文章网址</td></tr></tbody></table><h3 id="模板"><a href="#模板" class="headerlink" title="模板"></a>模板</h3><pre><code>hexo new &quot;postName&quot; #新建文章hexo new page &quot;pageName&quot; #新建页面hexo generate #生成静态页面至public目录hexo server #开启预览访问端口（默认端口4000，&apos;ctrl + c&apos;关闭server）hexo deploy #将.deploy目录部署到GitHubhexo new &quot;postName&quot; #新建文章hexo new page &quot;pageName&quot; #新建页面hexo new page &quot;about&quot;hexo new page &quot;tags&quot;</code></pre><h4 id="百度统计"><a href="#百度统计" class="headerlink" title="百度统计"></a><a href="https://tongji.baidu.com/web/homepage/index" target="_blank" rel="noopener">百度统计</a></h4><h4 id="空格"><a href="#空格" class="headerlink" title="空格"></a>空格</h4><pre><code>直接写半方大的空白 &amp;ensp; 或 &amp;#8194;全方大的空白 &amp;emsp; 或 &amp;#8195;不断行的空白格 &amp;nbsp; 或 &amp;#160;</code></pre><h4 id="RSS不显示"><a href="#RSS不显示" class="headerlink" title="RSS不显示"></a>RSS不显示</h4><pre><code>安装RSS插件npm install hexo-generator-feed --save开启RSS功能编辑hexo/_config.yml，添加如下代码：rss: /atom.xml #rss地址  默认即可</code></pre>]]></content>
     
     <summary type="html">
     
@@ -178,7 +174,7 @@
       <category term="hexo" scheme="https://blog.tozuo.cn/categories/hexo/"/>
     
     
-      <category term="hexo" scheme="https://blog.tozuo.cn/tags/hexo/"/>
+      <category term="hexo使用" scheme="https://blog.tozuo.cn/tags/hexo%E4%BD%BF%E7%94%A8/"/>
     
   </entry>
   
@@ -187,16 +183,15 @@
     <link href="https://blog.tozuo.cn/posts/4a17b156.html"/>
     <id>https://blog.tozuo.cn/posts/4a17b156.html</id>
     <published>2018-11-27T04:00:00.000Z</published>
-    <updated>2019-04-18T04:26:12.900Z</updated>
+    <updated>2019-04-18T08:54:15.688Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://satot.cn/" target="_blank" rel="noopener">satot</a>’Blog!</p><h2 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h2><pre><code>本博客主页近期作为兰湾国际信息交流和备忘。</code></pre><h2 id="空格-直接写"><a href="#空格-直接写" class="headerlink" title="空格 直接写"></a>空格 直接写</h2><pre><code>半方大的空白 &amp;ensp; 或 &amp;#8194;全方大的空白 &amp;emsp; 或 &amp;#8195;不断行的空白格 &amp;nbsp; 或 &amp;#160;</code></pre><h2 id="提交git"><a href="#提交git" class="headerlink" title="提交git"></a>提交git</h2><h2 id="hexo-clean-amp-amp-hexo-g-amp-amp-hexo-d"><a href="#hexo-clean-amp-amp-hexo-g-amp-amp-hexo-d" class="headerlink" title="hexo clean &amp;&amp; hexo g &amp;&amp; hexo d"></a>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</h2><pre><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></pre>]]></content>
+    <content type="html"><![CDATA[<h1 id="Welcome-to-satot’Blog"><a href="#Welcome-to-satot’Blog" class="headerlink" title="Welcome to satot’Blog!"></a>Welcome to <a href="https://satot.cn/" target="_blank" rel="noopener">satot</a>’Blog!</h1><h2 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h2><pre><code>本博客主页近期作为兰湾国际信息交流和备忘。</code></pre><h2 id="提交git"><a href="#提交git" class="headerlink" title="提交git"></a>提交git</h2><h2 id="hexo-clean-amp-amp-hexo-g-amp-amp-hexo-d"><a href="#hexo-clean-amp-amp-hexo-g-amp-amp-hexo-d" class="headerlink" title="hexo clean &amp;&amp; hexo g &amp;&amp; hexo d"></a>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</h2><pre><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></pre>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://satot.cn/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;satot&lt;/a&gt;’Blog!&lt;/p&gt;
-&lt;h2 id=&quot;Hello-World&quot;&gt;&lt;a href=&quot;#Hello-World&quot; cla
+        &lt;h1 id=&quot;Welcome-to-satot’Blog&quot;&gt;&lt;a href=&quot;#Welcome-to-satot’Blog&quot; class=&quot;headerlink&quot; title=&quot;Welcome to satot’Blog!&quot;&gt;&lt;/a&gt;Welcome to &lt;a href=&quot;ht
       
     
     </summary>
