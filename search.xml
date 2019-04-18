@@ -54,14 +54,14 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[help]]></title>
+    <title><![CDATA[Help]]></title>
     <url>%2F2018%2F11%2F27%2Fhelp%2F</url>
     <content type="text"><![CDATA[Z-Blog - Helphexo博客 安装教程npm install hexo --save npm install hexo-server --save 配置 hexo s 后页面空白 npm install hexo-renderer-ejs --save npm install hexo-renderer-stylus --save npm install hexo-renderer-marked --save 站内搜索 npm install hexo-generator-search --save 配置git npm install --save hexo-deployer-git aath 主题依赖 npm install --save hexo-renderer-sass next 5主题 git clone https://github.com/iissnan/hexo-theme-next themes/next5 next 6主题 git clone https://github.com/theme-next/hexo-theme-next themes/next6 评论系统 Gitment，则应该使用 npm 进行安装。 npm install --save gitment 评论系统 gitalk， npm i --save gitalk 添加共享按钮 npm install --save hexo-helper-qrcode 部署命令提交githexo clean &amp;&amp; hexo g &amp;&amp; hexo d 清理&amp;编译&amp;启动服务hexo clean &amp;&amp; hexo g &amp;&amp; hexo s 然后打开页面显示的是：&lt;%- partial(&apos;_partial/head&apos;) %&gt; &lt;%- partial(&apos;_partial/header&apos;) %&gt; &lt;%- body %&gt; &lt;% if (theme.sidebar &amp;&amp; theme.sidebar !== &apos;bottom&apos;){ %&gt; &lt;%- partial(&apos;_partial/sidebar&apos;) %&gt; &lt;% } %&gt; &lt;%- partial(&apos;_partial/footer&apos;) %&gt; &lt;%- partial(&apos;_partial/mobile-nav&apos;) %&gt; &lt;%- partial(&apos;_partial/after-footer&apos;) %&gt; 原因： Hexo无法解析模板文件 解决方案： 使用以下的命令 npm install hexo-renderer-ejs --save npm install hexo-renderer-stylus --save npm install hexo-renderer-marked --save 白板和Cannot GET / 几个字原因： 由于2.6以后就更新了，我们需要手动配置些东西，我们需要输入下面三行命令： npm install hexo-renderer-ejs --save npm install hexo-renderer-stylus --save npm install hexo-renderer-marked --save 打赏&amp; 版权&amp; 分享reward_comment: Thanks！ alipay: /images/pay/a.jpg wechatpay: /images/pay/w.jpg post_copyright: enable: true author: hiekay copyright_text: 作者拥有版权，请注明出处转载。 shareto: true]]></content>
       <categories>
-        <category>help</category>
+        <category>Help</category>
       </categories>
       <tags>
-        <tag>help</tag>
+        <tag>Help</tag>
         <tag>提交GitHub</tag>
         <tag>测试</tag>
       </tags>
@@ -80,6 +80,6 @@
   <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2018%2F11%2F27%2Fhello%2F</url>
-    <content type="text"><![CDATA[Welcome to satot’Blog! Hello World本博客主页近期作为兰湾国际信息交流和备忘。 空格 直接写半方大的空白&amp;ensp; 或 &amp;#8194; 全方大的空白&amp;emsp; 或 &amp;#8195; 不断行的空白格&amp;nbsp; 或 &amp;#160; 提交githexo clean &amp;&amp; hexo g &amp;&amp; hexo dhexo clean &amp;&amp; hexo g &amp;&amp; hexo d]]></content>
+    <content type="text"><![CDATA[Welcome to satot’Blog! Hello World本博客主页近期作为兰湾国际信息交流和备忘。 空格 直接写半方大的空白 &amp;ensp; 或 &amp;#8194; 全方大的空白 &amp;emsp; 或 &amp;#8195; 不断行的空白格 &amp;nbsp; 或 &amp;#160; 提交githexo clean &amp;&amp; hexo g &amp;&amp; hexo dhexo clean &amp;&amp; hexo g &amp;&amp; hexo d]]></content>
   </entry>
 </search>

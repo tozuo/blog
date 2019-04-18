@@ -9,7 +9,6 @@ zblog-hexo
 ####
     hexo
 
-
 #### 评论系统 - 来必力
     <!-- 来必力City版安装代码 -->
     <div id="lv-container" data-id="city" data-uid="MTAyMC80MTc2OC8xODMxNA==">
@@ -44,62 +43,49 @@ zblog-hexo
     </script>
 
 
-
-
 #### footer 显示 Hexo
-文件路径：themes/next6/layout/_partials/footer.swig
+文件路径：themes/next6/layout/_partials/footer.swig  
 
-{% if theme.footer.powered.enable %}
-  <div class="powered-by">{#
-  #}{{ __('footer.powered', next_url('https://hexo.io', 'Hexo', {class: 'theme-link'})) }}{#
-  #}{% if theme.footer.powered.version %} v{{ hexo_env('version') }}{% endif %}{#
- #}</div>
-{% endif %}
+	{% if theme.footer.powered.enable %}
+	  <div class="powered-by">{#
+	  #}{{ __('footer.powered', next_url('https://hexo.io', 'Hexo', {class: 'theme-link'})) }}{#
+	  #}{% if theme.footer.powered.version %} v{{ hexo_env('version') }}{% endif %}{#
+	 #}</div>
+	{% endif %}
 
-{% if theme.footer.powered.enable and theme.footer.theme.enable %}
-  <span class="post-meta-divider">|</span>
-{% endif %}
+	{% if theme.footer.powered.enable and theme.footer.theme.enable %}
+	  <span class="post-meta-divider">|</span>
+	{% endif %}
 
-{% if theme.footer.theme.enable %}
-  <div class="theme-info">{#
-  #}{{ __('footer.theme') }}  {{ next_url('https://theme-next.org', 'NexT.' + theme.scheme, {class: 'theme-link'}) }}{#
-  #}{% if theme.footer.theme.version %} v{{ version }}{% endif %}{#
-#}</div>
-{% endif %}
-
-
-
-
-
-
-
+	{% if theme.footer.theme.enable %}
+	  <div class="theme-info">{#
+	  #}{{ __('footer.theme') }}  {{ next_url('https://theme-next.org', 'NexT.' + theme.scheme, {class: 'theme-link'}) }}{#
+	  #}{% if theme.footer.theme.version %} v{{ version }}{% endif %}{#
+	#}</div>
+	{% endif %}
+	
 
 #### GitHub 域名解析
 
+	zsatot
+	/
+	zlove.github.io
+	zsatot
+	/
+	zwww.github.io
+
+	satott
+	/
+	tozuo.github.io
+	satott
+	/
+	tzuo.github.io
 
 
-
-
-zsatot
-/
-zlove.github.io
-zsatot
-/
-zwww.github.io
-
-satott
-/
-tozuo.github.io
-satott
-/
-tzuo.github.io
-
-
-tozuo
-/
-zlink.github.io
-tozuo
-/
-tblog.github.io
-
+	tozuo
+	/
+	zlink.github.io
+	tozuo
+	/
+	tblog.github.io
 
