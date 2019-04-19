@@ -49,17 +49,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[zblog部署]]></title>
-    <url>%2Fposts%2Fc8eea888.html</url>
-    <content type="text"><![CDATA[## 博文前缀 Front-mattertitle 网站标题 subtitle 网站副标题 description 网站描述 author 您的名字 language 网站使用的语言 timezone 网站时区。Hexo 默认使用您电脑的时区。时区列表。比如说：America/New_York, Japan, 和 UTC 。 参数 描述 默认值 layout 布局 title 标题 date 建立日期 文件建立日期 updated 更新日期 文件更新日期 comments 开启文章的评论功能 true tags 标签（不适用于分页） categories 分类（不适用于分页） permalink 覆盖文章网址 模板hexo new &quot;postName&quot; #新建文章 hexo new page &quot;pageName&quot; #新建页面 hexo generate #生成静态页面至public目录 hexo server #开启预览访问端口（默认端口4000，&apos;ctrl + c&apos;关闭server） hexo deploy #将.deploy目录部署到GitHub hexo new &quot;postName&quot; #新建文章 hexo new page &quot;pageName&quot; #新建页面 hexo new page &quot;about&quot; hexo new page &quot;tags&quot; 百度统计空格直接写 半方大的空白 &amp;ensp; 或 &amp;#8194; 全方大的空白 &amp;emsp; 或 &amp;#8195; 不断行的空白格 &amp;nbsp; 或 &amp;#160; RSS不显示安装RSS插件 npm install hexo-generator-feed --save 开启RSS功能 编辑hexo/_config.yml，添加如下代码： rss: /atom.xml #rss地址 默认即可]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo使用</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[Help]]></title>
     <url>%2Fposts%2Fa8b5f392.html</url>
     <content type="text"><![CDATA[Z-Blog - Helphexo博客 安装教程npm install hexo --save npm install hexo-server --save 配置 hexo s 后页面空白 npm install hexo-renderer-ejs --save npm install hexo-renderer-stylus --save npm install hexo-renderer-marked --save 站内搜索 npm install hexo-generator-search --save 配置git npm install --save hexo-deployer-git aath 主题依赖 npm install --save hexo-renderer-sass next 5主题 git clone https://github.com/iissnan/hexo-theme-next themes/next5 next 6主题 git clone https://github.com/theme-next/hexo-theme-next themes/next6 评论系统 Gitment，则应该使用 npm 进行安装。 npm install --save gitment 评论系统 gitalk， npm i --save gitalk 添加共享按钮 npm install --save hexo-helper-qrcode hexo链接 持久化 npm install hexo-abbrlink --save 安装 hexo-admin npm install --save hexo-admin 上传本地图片 npm install hexo-asset-image --save 部署命令提交githexo clean &amp;&amp; hexo g &amp;&amp; hexo d 清理&amp;编译&amp;启动服务hexo clean &amp;&amp; hexo g &amp;&amp; hexo s 然后打开页面显示的是：&lt;%- partial(&apos;_partial/head&apos;) %&gt; &lt;%- partial(&apos;_partial/header&apos;) %&gt; &lt;%- body %&gt; &lt;% if (theme.sidebar &amp;&amp; theme.sidebar !== &apos;bottom&apos;){ %&gt; &lt;%- partial(&apos;_partial/sidebar&apos;) %&gt; &lt;% } %&gt; &lt;%- partial(&apos;_partial/footer&apos;) %&gt; &lt;%- partial(&apos;_partial/mobile-nav&apos;) %&gt; &lt;%- partial(&apos;_partial/after-footer&apos;) %&gt; 原因： Hexo无法解析模板文件 解决方案： 使用以下的命令 npm install hexo-renderer-ejs --save npm install hexo-renderer-stylus --save npm install hexo-renderer-marked --save 白板和Cannot GET / 几个字原因： 由于2.6以后就更新了，我们需要手动配置些东西，我们需要输入下面三行命令： npm install hexo-renderer-ejs --save npm install hexo-renderer-stylus --save npm install hexo-renderer-marked --save 打赏&amp; 版权&amp; 分享reward_comment: Thanks！ alipay: /images/pay/a.jpg wechatpay: /images/pay/w.jpg shareto: true]]></content>
@@ -68,6 +57,17 @@
       </categories>
       <tags>
         <tag>hexo配置</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[zblog部署]]></title>
+    <url>%2Fposts%2Fc8eea888.html</url>
+    <content type="text"><![CDATA[## 博文前缀 Front-mattertitle 网站标题 subtitle 网站副标题 description 网站描述 author 您的名字 language 网站使用的语言 timezone 网站时区。Hexo 默认使用您电脑的时区。时区列表。比如说：America/New_York, Japan, 和 UTC 。 参数 描述 默认值 layout 布局 title 标题 date 建立日期 文件建立日期 updated 更新日期 文件更新日期 comments 开启文章的评论功能 true tags 标签（不适用于分页） categories 分类（不适用于分页） permalink 覆盖文章网址 模板hexo new &quot;postName&quot; #新建文章 hexo new page &quot;pageName&quot; #新建页面 hexo generate #生成静态页面至public目录 hexo server #开启预览访问端口（默认端口4000，&apos;ctrl + c&apos;关闭server） hexo deploy #将.deploy目录部署到GitHub hexo new &quot;postName&quot; #新建文章 hexo new page &quot;pageName&quot; #新建页面 hexo new page &quot;about&quot; hexo new page &quot;tags&quot; 百度统计空格直接写 半方大的空白 &amp;ensp; 或 &amp;#8194; 全方大的空白 &amp;emsp; 或 &amp;#8195; 不断行的空白格 &amp;nbsp; 或 &amp;#160; RSS不显示安装RSS插件 npm install hexo-generator-feed --save 开启RSS功能 编辑hexo/_config.yml，添加如下代码： rss: /atom.xml #rss地址 默认即可]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo使用</tag>
       </tags>
   </entry>
   <entry>
