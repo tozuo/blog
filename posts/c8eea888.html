@@ -89,7 +89,7 @@
 <meta property="og:site_name" content="兰湾国际业主维权">
 <meta property="og:description" content="Hexohexo博客 安装教程npm install hexo --save npm install hexo-server --save  配置 hexo s 后页面空白 npm install hexo-renderer-ejs --save npm install hexo-renderer-stylus --save npm install hexo-renderer-marked --s">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-04-22T02:56:51.631Z">
+<meta property="og:updated_time" content="2019-04-22T06:35:01.224Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo - zblog">
 <meta name="twitter:description" content="Hexohexo博客 安装教程npm install hexo --save npm install hexo-server --save  配置 hexo s 后页面空白 npm install hexo-renderer-ejs --save npm install hexo-renderer-stylus --save npm install hexo-renderer-marked --s">
@@ -352,7 +352,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-04-22T10:56:51+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-04-22T14:35:01+08:00">
                 2019-04-22
               </time>
             
@@ -555,8 +555,54 @@ hexo new page &quot;pageName&quot; #新建页面
 
 hexo new page &quot;about&quot;
 hexo new page &quot;tags&quot;
-</code></pre><h4 id="百度统计"><a href="#百度统计" class="headerlink" title="百度统计"></a><a href="https://tongji.baidu.com/web/homepage/index" target="_blank" rel="noopener">百度统计</a></h4><p><a href="https://tongji.baidu.com/web/homepage/index" target="_blank" rel="noopener">https://tongji.baidu.com/web/homepage/index</a> </p>
-<h4 id="RSS不显示"><a href="#RSS不显示" class="headerlink" title="RSS不显示"></a>RSS不显示</h4><pre><code>安装RSS插件
+</code></pre><h4 id="百度统计-satott-S6"><a href="#百度统计-satott-S6" class="headerlink" title="百度统计 satott/S6"></a>百度统计 satott/S6</h4><h4 id="百度统计"><a href="#百度统计" class="headerlink" title="百度统计"></a><a href="https://tongji.baidu.com/web/homepage/index" target="_blank" rel="noopener">百度统计</a></h4><p><a href="https://tongji.baidu.com/web/homepage/index" target="_blank" rel="noopener">https://tongji.baidu.com/web/homepage/index</a> </p>
+<pre><code>&lt;script&gt;
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement(&quot;script&quot;);
+      hm.src = &quot;https://hm.baidu.com/hm.js?d2a4aaa23cf21744067bec574ea39e2a&quot;;
+      var s = document.getElementsByTagName(&quot;script&quot;)[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+&lt;/script&gt;
+</code></pre><h4 id="评论系统-来必力"><a href="#评论系统-来必力" class="headerlink" title="评论系统 - 来必力"></a>评论系统 - 来必力</h4><pre><code>&lt;!-- 来必力City版安装代码 --&gt;
+&lt;div id=&quot;lv-container&quot; data-id=&quot;city&quot; data-uid=&quot;MTAyMC80MTc2OC8xODMxNA==&quot;&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === &apos;function&apos;) { return; }
+
+       j = d.createElement(s);
+       j.src = &apos;https://cdn-city.livere.com/js/embed.dist.js&apos;;
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, &apos;script&apos;);
+    &lt;/script&gt;
+&lt;noscript&gt; 为正常使用来必力评论功能请激活JavaScript&lt;/noscript&gt;
+&lt;/div&gt;
+&lt;!-- City版安装代码已完成 --&gt;
+</code></pre><h4 id="footer-显示-Hexo"><a href="#footer-显示-Hexo" class="headerlink" title="footer 显示 Hexo"></a>footer 显示 Hexo</h4><p>文件路径：themes/next6/layout/_partials/footer.swig  </p>
+<pre><code>{% if theme.footer.powered.enable %}
+	  <div class="powered-by">{#
+	  #}{{ __('footer.powered', next_url('https://hexo.io', 'Hexo', {class: 'theme-link'})) }}{#
+	  #}{% if theme.footer.powered.version %} v{{ hexo_env('version') }}{% endif %}&lt;/div&gt;
+{% endif %}
+
+{% if theme.footer.powered.enable and theme.footer.theme.enable %}
+	  <span class="post-meta-divider">|</span>
+	{% endif %}
+
+{% if theme.footer.theme.enable %}
+	  <div class="theme-info">{#
+	  #}{{ __('footer.theme') }}  {{ next_url('https://theme-next.org', 'NexT.' + theme.scheme, {class: 'theme-link'}) }}{#
+	  #}{% if theme.footer.theme.version %} v{{ version }}{% endif %}&lt;/div&gt;
+{% endif %}
+</div></div></code></pre><h4 id="hexo-new-的时候文件前缀加时间"><a href="#hexo-new-的时候文件前缀加时间" class="headerlink" title="hexo new 的时候文件前缀加时间"></a>hexo new 的时候文件前缀加时间</h4><pre><code># File name of new posts
+# hexo new 的时候文件前缀加时间
+# new_post_name: :year-:month-:day-:title.md 
+</code></pre><h4 id="RSS不显示"><a href="#RSS不显示" class="headerlink" title="RSS不显示"></a>RSS不显示</h4><pre><code>安装RSS插件
 npm install hexo-generator-feed --save
 
 开启RSS功能
@@ -808,7 +854,7 @@ rss: /atom.xml #rss地址  默认即可
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo"><span class="nav-number">1.</span> <span class="nav-text">Hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#hexo博客-安装教程"><span class="nav-number">1.0.1.</span> <span class="nav-text">hexo博客 安装教程</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#部署命令"><span class="nav-number">1.1.</span> <span class="nav-text">部署命令</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#提交git"><span class="nav-number">1.1.1.</span> <span class="nav-text">提交git</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#清理-amp-编译-amp-启动服务"><span class="nav-number">1.1.2.</span> <span class="nav-text">清理&amp;编译&amp;启动服务</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#然后打开页面显示的是："><span class="nav-number">1.1.3.</span> <span class="nav-text">然后打开页面显示的是：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#白板和Cannot-GET-几个字"><span class="nav-number">1.1.4.</span> <span class="nav-text">白板和Cannot GET / 几个字</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#打赏-amp-版权-amp-分享"><span class="nav-number">1.1.5.</span> <span class="nav-text">打赏&amp; 版权&amp; 分享</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#博文前缀-Front-matter"><span class="nav-number">1.1.6.</span> <span class="nav-text">博文前缀 Front-matter</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#模板"><span class="nav-number">1.2.</span> <span class="nav-text">模板</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#百度统计"><span class="nav-number">1.2.1.</span> <span class="nav-text">百度统计</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#RSS不显示"><span class="nav-number">1.2.2.</span> <span class="nav-text">RSS不显示</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#asset-变量"><span class="nav-number">1.3.</span> <span class="nav-text">asset 变量</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo"><span class="nav-number">1.</span> <span class="nav-text">Hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#hexo博客-安装教程"><span class="nav-number">1.0.1.</span> <span class="nav-text">hexo博客 安装教程</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#部署命令"><span class="nav-number">1.1.</span> <span class="nav-text">部署命令</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#提交git"><span class="nav-number">1.1.1.</span> <span class="nav-text">提交git</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#清理-amp-编译-amp-启动服务"><span class="nav-number">1.1.2.</span> <span class="nav-text">清理&amp;编译&amp;启动服务</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#然后打开页面显示的是："><span class="nav-number">1.1.3.</span> <span class="nav-text">然后打开页面显示的是：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#白板和Cannot-GET-几个字"><span class="nav-number">1.1.4.</span> <span class="nav-text">白板和Cannot GET / 几个字</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#打赏-amp-版权-amp-分享"><span class="nav-number">1.1.5.</span> <span class="nav-text">打赏&amp; 版权&amp; 分享</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#博文前缀-Front-matter"><span class="nav-number">1.1.6.</span> <span class="nav-text">博文前缀 Front-matter</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#模板"><span class="nav-number">1.2.</span> <span class="nav-text">模板</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#百度统计-satott-S6"><span class="nav-number">1.2.1.</span> <span class="nav-text">百度统计 satott/S6</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#百度统计"><span class="nav-number">1.2.2.</span> <span class="nav-text">百度统计</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#评论系统-来必力"><span class="nav-number">1.2.3.</span> <span class="nav-text">评论系统 - 来必力</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#footer-显示-Hexo"><span class="nav-number">1.2.4.</span> <span class="nav-text">footer 显示 Hexo</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#hexo-new-的时候文件前缀加时间"><span class="nav-number">1.2.5.</span> <span class="nav-text">hexo new 的时候文件前缀加时间</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#RSS不显示"><span class="nav-number">1.2.6.</span> <span class="nav-text">RSS不显示</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#asset-变量"><span class="nav-number">1.3.</span> <span class="nav-text">asset 变量</span></a></li></ol></div>
             
 
           </div>
